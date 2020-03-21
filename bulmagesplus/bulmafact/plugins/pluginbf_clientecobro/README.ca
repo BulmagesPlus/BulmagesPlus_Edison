@@ -1,0 +1,41 @@
+#######
+#Plugins
+#######
+#README.ca
+#20080501
+
+Nombre: Cobros
+
+Biblioteca: libpluginbf_clientecobro.so
+
+Descripción:  <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="100"/><BR>Cobraments a clients</H1>
+<P>Suport per a emissió de cobraments a clients.</P>
+<P>En carregar el plugin tindrem dues noves entrades de menú <B>Llistat de Cobraments <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect_list.svg" WIDTH="22"/></B> des de la qual accedirem al llistat de cobraments emesos i <B>Nou cobrament <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="22"/></B> des del qual opdrem emetre un nou cobrament.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="22"/>Llistat de Cobraments</H2>
+<P> Mitjançant el llistat de cobraments podrem controlas tots el cobraments emesos, editar-los i esborrar-los. Per a això opdem utilitzar la barra de botons superior del llistat.</P>
+<P> És comú en tots els llistats de BulmaGés poder configurar-los presentant els camps que ens interessi. Per a això tenim el <B>menú del subformuari <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> o l'opció <B>Configurar Llistat <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/></B> que ens presenta al lateral dret del llistat tots els camps mostrables per ell, opcions de paginació i la consulta de base de dades que genera aquest llistat.</P>
+<P><B>Nota:</B>Poden haver-hi opcions ocultes que no veieu que s'activen mitjançant la pulsació del botó dret del ratoí a determinades zones. Aquests opcions poden veure's de forma permanent com una barra d'eines mitjançant l'acció <B>Mostrar Menú Subformulari  <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/></B> Recordi que el botó dret del ratolí pot ser el seu millor aliat en la búsqueda de determinades accions.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="32"/>Nou Cobrament</H2>
+<P>En crear un nou cobrament les dades necessàries a omplir són el client i el magatzem. La resta de camps poden deixar-se en blan per ser omplerts posteriorment. Els cams que apareixen a la pantalla poden variar segons la configuració de plugins que tinguem i que precissin d'informació addicional en els cobraments. Aquesta informació pot ser obligatòria o no depenent del plugin en qüestió.</P>
+<P>Un cop omplertes les dades podem desar el cobrament o donar-li al botó <B>Accepta</B> per desar els canvis.</P>
+<P>Tots els cobraments tenen una plantilla d'impressó per defecte anomenada <B>recibo.rml</B> que configura la forma com s'imprimeix el cobrament en pular sobre el botó imprimir. A més poden existir informes addicionals que apareixen en pulsar el botó dret del ratolí en qualsevol espai buit de la pantalla de cobrament, així com accions ocultes no accessibles d'una altra manera.</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_cliente.so
+
+Incompatibles: libpluginbf_carteracobros.so
+
+Reports: recibo.rml; blform_CobroView.qs
+
+Categorias: Facturació genèrica;
+
+Orden: 624
+
+Comentarios:

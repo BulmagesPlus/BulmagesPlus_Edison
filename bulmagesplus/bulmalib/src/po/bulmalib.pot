@@ -1,0 +1,961 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: info@iglues.org\n"
+"POT-Creation-Date: 2011-08-16 13:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_bldblogindialogbase.h:150
+msgid "Lanzador Bulmages"
+msgstr ""
+
+#: ui_bldblogindialogbase.h:151
+msgid "Mensaje de error:"
+msgstr ""
+
+#: ui_bldblogindialogbase.h:153
+msgid "Registro de entrada:"
+msgstr ""
+
+#: ui_bldblogindialogbase.h:154
+msgid "Nombre de usuario:"
+msgstr ""
+
+#: ui_bldblogindialogbase.h:155
+msgid "Contrasenya:"
+msgstr ""
+
+#: ui_bldblogindialogbase.h:156
+msgid "&Validar"
+msgstr ""
+
+#: ui_bldblogindialogbase.h:157
+msgid "&Cerrar el programa"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:188 ui_blcompanydialogbase.h:190
+msgid "Seleccione una empresa"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:194
+msgid "Actualizar Listado"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:197
+msgid "Actualizar Listado de Empresas"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:200 ui_blcountrybase.h:280
+msgid "Ctrl+N"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:201
+msgid "Empresas disponibles:"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:202
+msgid "&Entra"
+msgstr ""
+
+#: ui_blcompanydialogbase.h:203 blform.cpp:463 blcountryview.cpp:118
+#: blcountryview.cpp:225
+msgid "&Cancelar"
+msgstr ""
+
+#: ui_blerrordialogbase.h:110
+msgid "Mensaje"
+msgstr ""
+
+#: ui_blerrordialogbase.h:112
+msgid "&Detalles"
+msgstr ""
+
+#: ui_blerrordialogbase.h:113 ui_blsubformbase.h:681
+msgid "&Cerrar"
+msgstr ""
+
+#: ui_bldatesearchbase.h:82 ui_blsearchwidgetbase.h:105
+msgid "Form1"
+msgstr ""
+
+#: ui_bldatesearchbase.h:85 ui_blsearchwidgetbase.h:108
+msgid "Ctrl+F"
+msgstr ""
+
+#: ui_blsubformbase.h:661
+msgid "Configuracion Subformularios"
+msgstr ""
+
+#: ui_blsubformbase.h:665
+msgid "Columnas visibles"
+msgstr ""
+
+#: ui_blsubformbase.h:666
+msgid "Total filas:"
+msgstr ""
+
+#: ui_blsubformbase.h:667
+msgid "Filas por pagina:"
+msgstr ""
+
+#: ui_blsubformbase.h:668
+msgid "Pagina actual:"
+msgstr ""
+
+#: ui_blsubformbase.h:669
+msgid "Total paginas:"
+msgstr ""
+
+#: ui_blsubformbase.h:670
+msgid "Pagina anterior"
+msgstr ""
+
+#: ui_blsubformbase.h:671
+msgid "Pagina siguiente"
+msgstr ""
+
+#: ui_blsubformbase.h:672
+msgid "Paginacion"
+msgstr ""
+
+#: ui_blsubformbase.h:674
+msgid "Escriba aqui la consulta SQL"
+msgstr ""
+
+#: ui_blsubformbase.h:676
+msgid "Query"
+msgstr ""
+
+#: ui_blsubformbase.h:677
+msgid "!Opcion reservada a expertos!"
+msgstr ""
+
+#: ui_blsubformbase.h:678
+msgid "Ejecutar consulta"
+msgstr ""
+
+#: ui_blsubformbase.h:679
+msgid "SQL"
+msgstr ""
+
+#: ui_blsubformbase.h:680
+msgid "Aplicar"
+msgstr ""
+
+#: ui_blformconfigbase.h:326 ui_blbankeditbase.h:92
+msgid "Form"
+msgstr ""
+
+#: ui_blformconfigbase.h:327 ui_blformconfigbase.h:329
+msgid "Nombre de la Tabla"
+msgstr ""
+
+#: ui_blformconfigbase.h:328
+msgid "Database Table"
+msgstr ""
+
+#: ui_blformconfigbase.h:330
+msgid "Campo Indice"
+msgstr ""
+
+#: ui_blformconfigbase.h:331
+msgid "Form Elements"
+msgstr ""
+
+#: ui_blformconfigbase.h:332
+msgid "Usuario Actual"
+msgstr ""
+
+#: ui_blformconfigbase.h:333
+msgid "Propietario de la tablas"
+msgstr ""
+
+#: ui_blformconfigbase.h:334
+msgid "User Preferences"
+msgstr ""
+
+#: ui_blformconfigbase.h:335
+msgid "Databse Scripting"
+msgstr ""
+
+#: ui_blformconfigbase.h:337 blformlist.cpp:448
+msgid "Editar"
+msgstr ""
+
+#: ui_blformconfigbase.h:338
+msgid "Qt Scripting"
+msgstr ""
+
+#: ui_blformconfigbase.h:339
+msgid "Cerrar"
+msgstr ""
+
+#: ui_blcountrybase.h:260
+msgid "Paises"
+msgstr ""
+
+#: ui_blcountrybase.h:261
+msgid "Datos del pais:"
+msgstr ""
+
+#: ui_blcountrybase.h:262
+msgid "Nombre del pais:"
+msgstr ""
+
+#: ui_blcountrybase.h:263
+msgid "Codigo 3 letras:"
+msgstr ""
+
+#: ui_blcountrybase.h:264
+msgid "Codigo 2 letras:"
+msgstr ""
+
+#: ui_blcountrybase.h:266 ui_blcountrybase.h:269
+msgid "Mostrar/ocultar detalle"
+msgstr ""
+
+#: ui_blcountrybase.h:272
+msgid "Cancelar"
+msgstr ""
+
+#: ui_blcountrybase.h:274 ui_blcountrybase.h:277
+msgid "Nuevo pais"
+msgstr ""
+
+#: ui_blcountrybase.h:282 ui_blcountrybase.h:285 blcountryview.cpp:223
+msgid "Borrar pais"
+msgstr ""
+
+#: ui_blcountrybase.h:288
+msgid "Ctrl+D"
+msgstr ""
+
+#: ui_blcountrybase.h:290 ui_blcountrybase.h:293 blcountryview.cpp:116
+#: blcountryview.cpp:188
+msgid "Guardar pais"
+msgstr ""
+
+#: ui_blcountrybase.h:296
+msgid "Ctrl+S"
+msgstr ""
+
+#: ui_blprogressbarbase.h:68
+msgid "Trabajando"
+msgstr ""
+
+#: ui_blprogressbarbase.h:69
+msgid "TextLabel"
+msgstr ""
+
+#: ui_blsearchwidgetbase.h:106
+msgid "BlSearchWidget"
+msgstr ""
+
+#: ui_blsearchwidgetbase.h:110
+msgid "Limpiar campo"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:147
+msgid "Filtrar por"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:152
+msgid "="
+msgstr ""
+
+#: ui_blformlistfilterbase.h:153
+msgid ">"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:154
+msgid "<"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:155
+msgid ">="
+msgstr ""
+
+#: ui_blformlistfilterbase.h:156
+msgid "<="
+msgstr ""
+
+#: ui_blformlistfilterbase.h:160
+msgid "Cualquier parte del campo"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:161
+msgid "Comienzo del campo"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:162
+msgid "Hacer coincidir todo el campo"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:165 ui_blformlistfilterbase.h:168
+msgid "Limpiar el filtro"
+msgstr ""
+
+#: ui_blformlistfilterbase.h:172 ui_blformlistfilterbase.h:175
+msgid "Aplicar el filtro"
+msgstr ""
+
+#: blpostgresqlclient.cpp:144
+msgid "Error al hacer la consulta con la base de datos."
+msgstr ""
+
+#: blfunctions.cpp:130 blfunctions.cpp:809
+msgid "Informacion de depuracion"
+msgstr ""
+
+#: blfunctions.cpp:132 blfunctions.cpp:811 blfunctions.cpp:835
+#: blfunctions.cpp:846 blfunctions.cpp:857
+msgid "&Continuar"
+msgstr ""
+
+#: blfunctions.cpp:133 blfunctions.cpp:812
+msgid "&Omitir"
+msgstr ""
+
+#: blfunctions.cpp:134 blfunctions.cpp:813
+msgid "Omitir &clase"
+msgstr ""
+
+#: blfunctions.cpp:511
+msgid ""
+"Error al ejecutar el comando 'sed' [ blfunctions.cpp->blReplaceStringInFile"
+"() ]."
+msgstr ""
+
+#: blfunctions.cpp:533
+msgid "Error en PYTHON [ blfunctions->blCreatePDF() ]"
+msgstr ""
+
+#: blfunctions.cpp:542
+msgid "Error en FLIP [ blfunctions->blCreatePDF() ]"
+msgstr ""
+
+#: blfunctions.cpp:552
+msgid "Error en bgtrml2pdf [ blfunctions->blCreatePDF() ]"
+msgstr ""
+
+#: blfunctions.cpp:580
+msgid "Error al borrar archivo .ods [ blfunctions->blCreateODS() ]"
+msgstr ""
+
+#: blfunctions.cpp:597
+msgid "Error al ejecutar PYTHON [ blfunctions->blCreateODS() ]"
+msgstr ""
+
+#: blfunctions.cpp:623
+msgid "Error al ejecutar oocalc [ blfunctions->blCreateAndLoadODS() ]"
+msgstr ""
+
+#: blfunctions.cpp:645
+msgid "Error al ejecutar el visor de PDF [ blfunctions->blCreateAndLoadPDF() ]"
+msgstr ""
+
+#: blfunctions.cpp:660
+msgid "Error al ejecutar mailsend [ blfunctions->blSendPDFMail() ]"
+msgstr ""
+
+#: blfunctions.cpp:679
+msgid "Error al ejecutar xwininfo [ blfunctions->blWindowId() ]"
+msgstr ""
+
+#: blfunctions.cpp:834
+msgid "Informacion del programa"
+msgstr ""
+
+#: blfunctions.cpp:845
+msgid "Aviso del programa"
+msgstr ""
+
+#: blfunctions.cpp:856
+msgid "Error del programa"
+msgstr ""
+
+#: bldblogindialog.cpp:110
+msgid "Error: usuario y/o contrasenya incorrectos"
+msgstr ""
+
+#: blcompanydialog.cpp:209
+msgid "&Cierra el programa"
+msgstr ""
+
+#: blcompanydialog.cpp:279
+msgid "Para entrar, antes tiene que seleccionar una empresa."
+msgstr ""
+
+#: blcompanydialog.cpp:490 blsubform.cpp:236
+msgid "Nombre"
+msgstr ""
+
+#: blcompanydialog.cpp:490
+msgid "Anyo"
+msgstr ""
+
+#: blcompanydialog.cpp:490
+msgid "Archivo"
+msgstr ""
+
+#: blcompanydialog.cpp:490
+msgid "Tipo"
+msgstr ""
+
+#: bldatesearch.cpp:193
+msgid "Seleccione fecha"
+msgstr ""
+
+#: blimportexport.cpp:402 blimportexport.cpp:1423
+msgid "Exportando :"
+msgstr ""
+
+#: blimportexport.cpp:483
+msgid "<LI>Se ha insertado la cuenta "
+msgstr ""
+
+#: blimportexport.cpp:486
+msgid "<LI>Ya hay una cuenta con el codigo "
+msgstr ""
+
+#: blimportexport.cpp:595
+msgid "<LI>Insercion de asiento"
+msgstr ""
+
+#: blimportexport.cpp:623
+msgid "<LI>Insercion de apunte"
+msgstr ""
+
+#: blimportexport.cpp:625
+msgid "<LI>Apunte fuera de fecha</LI>\n"
+msgstr ""
+
+#: blimportexport.cpp:636
+msgid "<LI>Terminado</LI>\n"
+msgstr ""
+
+#: blimportexport.cpp:700
+msgid "Exportando nueva forma de pago"
+msgstr ""
+
+#: blimportexport.cpp:1480
+msgid "Application name"
+msgstr ""
+
+#: blimportexport.cpp:1480
+msgid ""
+"Error en el XML.\n"
+"Documento mal formado."
+msgstr ""
+
+#: blimportexport.cpp:1913
+msgid "<HR><B>Tratando el cliente "
+msgstr ""
+
+#: blimportexport.cpp:1921
+msgid "<LI> El cliente ya existe se pueden hacer modificaciones</LI>\n"
+msgstr ""
+
+#: blimportexport.cpp:1955
+msgid "<LI> El cliente no existe, se debe hacer una insercion de este</LI>\n"
+msgstr ""
+
+#: blimportexport.cpp:2014
+msgid "Tratando el proveedor"
+msgstr ""
+
+#: blimportexport.cpp:2022
+msgid "El proveedor ya existe, se pueden hacer modificaciones"
+msgstr ""
+
+#: blimportexport.cpp:2027
+msgid "El proveedor no existe, se debe hacer una insercion de este"
+msgstr ""
+
+#: blimportexport.cpp:2048
+msgid "Tratando la forma de pago"
+msgstr ""
+
+#: blimportexport.cpp:2056
+msgid "Datos insuficientes para tratar la forma de pago."
+msgstr ""
+
+#: blimportexport.cpp:2065
+msgid "Ya existe esta forma de pago."
+msgstr ""
+
+#: blimportexport.cpp:2075
+msgid "Forma de pago"
+msgstr ""
+
+#: blimportexport.cpp:2075
+msgid "Insertada"
+msgstr ""
+
+#: blimportexport.cpp:2091
+msgid "Tratando almacen"
+msgstr ""
+
+#: blimportexport.cpp:2105
+msgid "Datos insuficientes para tratar el almacen."
+msgstr ""
+
+#: blimportexport.cpp:2113
+msgid "Ya existe este almacen."
+msgstr ""
+
+#: blimportexport.cpp:2122
+msgid "Almacen"
+msgstr ""
+
+#: blimportexport.cpp:2122 blimportexport.cpp:2285
+msgid "insertado"
+msgstr ""
+
+#: blimportexport.cpp:2141
+msgid "Tratando familia"
+msgstr ""
+
+#: blimportexport.cpp:2161
+msgid "No se ha encontrado el padre de esta familia."
+msgstr ""
+
+#: blimportexport.cpp:2166
+msgid "Datos insuficientes para tratar la familia."
+msgstr ""
+
+#: blimportexport.cpp:2174
+msgid "Ya existe esta familia."
+msgstr ""
+
+#: blimportexport.cpp:2183
+msgid "Familia"
+msgstr ""
+
+#: blimportexport.cpp:2183
+msgid "insertada"
+msgstr ""
+
+#: blimportexport.cpp:2202
+msgid "Tratando articulo"
+msgstr ""
+
+#: blimportexport.cpp:2229
+msgid "La familia del articulo no existe"
+msgstr ""
+
+#: blimportexport.cpp:2254
+msgid "Datos insuficientes para tratar el articulo."
+msgstr ""
+
+#: blimportexport.cpp:2263
+msgid "Ya existe este articulo."
+msgstr ""
+
+#: blimportexport.cpp:2285
+msgid "Articulo"
+msgstr ""
+
+#: blimportexport.cpp:2300
+msgid "Tratando LPedidoCliente"
+msgstr ""
+
+#: blimportexport.cpp:2328
+msgid "Tratando DPedidoCliente"
+msgstr ""
+
+#: blimportexport.cpp:2349
+msgid "Tratando pedido cliente"
+msgstr ""
+
+#: blimportexport.cpp:2399 blimportexport.cpp:2628 blimportexport.cpp:2853
+#: blimportexport.cpp:3091
+msgid "El almacen del presupuesto no existe"
+msgstr ""
+
+#: blimportexport.cpp:2409 blimportexport.cpp:2638 blimportexport.cpp:2862
+#: blimportexport.cpp:3101
+msgid "El cliente del presupuesto no existe"
+msgstr ""
+
+#: blimportexport.cpp:2419 blimportexport.cpp:2647 blimportexport.cpp:2871
+#: blimportexport.cpp:3111
+msgid "La forma de pago del presupuesto no existe"
+msgstr ""
+
+#: blimportexport.cpp:2429 blimportexport.cpp:2656 blimportexport.cpp:2881
+#: blimportexport.cpp:3121
+msgid "El empleado del presupuesto no existe"
+msgstr ""
+
+#: blimportexport.cpp:2480 blimportexport.cpp:2706 blimportexport.cpp:2944
+#: blimportexport.cpp:3173
+msgid "El articulo de la linea de presupuesto no existe"
+msgstr ""
+
+#: blimportexport.cpp:2527
+msgid "Tratando LAlbaran"
+msgstr ""
+
+#: blimportexport.cpp:2555
+msgid "Tratando DAlbaran"
+msgstr ""
+
+#: blimportexport.cpp:2576
+msgid "Tratando albaran"
+msgstr ""
+
+#: blimportexport.cpp:2753
+msgid "Tratando LFactura"
+msgstr ""
+
+#: blimportexport.cpp:2781
+msgid "Tratando DFactura"
+msgstr ""
+
+#: blimportexport.cpp:2802
+msgid "Tratando factura"
+msgstr ""
+
+#: blimportexport.cpp:2891
+msgid "La factura ya existe y no se va a insertar."
+msgstr ""
+
+#: blimportexport.cpp:2991
+msgid "Tratando LPresupuesto"
+msgstr ""
+
+#: blimportexport.cpp:3019
+msgid "Tratando DPresupuesto"
+msgstr ""
+
+#: blimportexport.cpp:3040
+msgid "Tratando presupuesto"
+msgstr ""
+
+#: blplugins.cpp:99
+msgid "No se ha podido cargar la libreria: "
+msgstr ""
+
+#: blperiodicitycombobox.cpp:70
+msgid "Semanal"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:71
+msgid "2 Semanas"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:72
+msgid "Quincenal"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:73
+msgid "Mensual"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:74
+msgid "Trimestral"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:75
+msgid "Semestral"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:76
+msgid "Anual"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:77
+msgid "Bienal"
+msgstr ""
+
+#: blperiodicitycombobox.cpp:78
+msgid "Sin Periodicidad"
+msgstr ""
+
+#: bldb.cpp:584 bldb.cpp:590
+#, qt-format
+msgid "Consulta: '%1'."
+msgstr ""
+
+#: bldb.cpp:626 bldb.cpp:627 bldb.cpp:726 bldb.cpp:727
+#, qt-format
+msgid "Campo: '%1' no encontrado."
+msgstr ""
+
+#: bldb.cpp:824 bldb.cpp:825
+msgid "Error en la insercion del campo al registro."
+msgstr ""
+
+#: bldb.cpp:874 bldb.cpp:875
+msgid "Error al borrar"
+msgstr ""
+
+#: bldb.cpp:1032
+msgid "Error al copiar el archivo RML [ bldb->generateRML() ]"
+msgstr ""
+
+#: bldb.cpp:1044
+msgid "Error al copiar el archivo de logo [ bldb->generateRML() ]"
+msgstr ""
+
+#: blsubform.cpp:236
+msgid "Nombre de campo"
+msgstr ""
+
+#: blsubform.cpp:236
+msgid "Visible"
+msgstr ""
+
+#: blsubform.cpp:236
+msgid "Orden"
+msgstr ""
+
+#: blsubform.cpp:1358
+msgid "Cargando SubFormulario "
+msgstr ""
+
+#: blsubform.cpp:1882
+msgid ""
+"Ya existe un elemento con este valor en el subformulario. Se viola una clave "
+"unica."
+msgstr ""
+
+#: blsubform.cpp:1893
+msgid "Sin cambios"
+msgstr ""
+
+#: blsubform.cpp:2045 blsubform.cpp:2073
+msgid "Fila inexistente"
+msgstr ""
+
+#: blsubform.cpp:2146
+msgid "Error inesperado en el guardado. [BlSubForm::guardar]"
+msgstr ""
+
+#: blsubform.cpp:2189
+msgid "Error al borrar. [BlSubForm::borrar]"
+msgstr ""
+
+#: blsubform.cpp:2248
+msgid "Error al intentar borrar"
+msgstr ""
+
+#: blsubform.cpp:2696
+msgid "Imprimiendo "
+msgstr ""
+
+#: blsubform.cpp:2792 blsubform.cpp:2810
+msgid "no se ha inicializado bien la clase"
+msgstr ""
+
+#: blsubform.cpp:2946 blsubform.cpp:2958
+msgid "Errr al copiar listado.rml [ BlSubForm->printPDF() ]"
+msgstr ""
+
+#: blsubform.cpp:3127
+msgid "Borrar registro"
+msgstr ""
+
+#: blsubform.cpp:3132
+msgid "Subir fila"
+msgstr ""
+
+#: blsubform.cpp:3135
+msgid "Bajar fila"
+msgstr ""
+
+#: blsubform.cpp:3139
+msgid "Usar editor"
+msgstr ""
+
+#: blsubform.cpp:3142 bltreewidget.cpp:68
+msgid "Ajustar columa"
+msgstr ""
+
+#: blsubform.cpp:3144
+msgid "Ajustar altura"
+msgstr ""
+
+#: blsubform.cpp:3147 bltreewidget.cpp:71
+msgid "Ajustar columnas"
+msgstr ""
+
+#: blsubform.cpp:3149
+msgid "Ajustar alturas"
+msgstr ""
+
+#: blsubform.cpp:3153
+msgid "Ver/Ocultar menu de subformulario"
+msgstr ""
+
+#: blsubform.cpp:3155
+msgid "Ver/Ocultar configurador de subformulario"
+msgstr ""
+
+#: blwindowlistdock.cpp:161 blwindowlistdock.cpp:163
+msgid "Indexador"
+msgstr ""
+
+#: blworkspace.cpp:102 blworkspace.cpp:140
+msgid "Esc"
+msgstr ""
+
+#: blform.cpp:426 blformlist.cpp:449
+msgid "Borrar"
+msgstr ""
+
+#: blform.cpp:427
+msgid "Desea eliminar '"
+msgstr ""
+
+#: blform.cpp:437
+msgid "No se ha podido borrar"
+msgstr ""
+
+#: blform.cpp:461
+msgid "Guardar"
+msgstr ""
+
+#: blform.cpp:462 blcountryview.cpp:117 blcountryview.cpp:189
+msgid "Desea guardar los cambios?"
+msgstr ""
+
+#: blform.cpp:463
+msgid "&Si"
+msgstr ""
+
+#: blform.cpp:463
+msgid "&No"
+msgstr ""
+
+#: blform.cpp:476
+msgid "No se pudo cerrar la ventana debido a un error"
+msgstr ""
+
+#: blform.cpp:535
+msgid "Opciones avanzadas de ficha"
+msgstr ""
+
+#: blform.cpp:538
+msgid "Imprimir ficha"
+msgstr ""
+
+#: blform.cpp:927 blform.cpp:933
+msgid "Error inesperado al guardar"
+msgstr ""
+
+#: blmaincompany.cpp:254
+msgid "La base de datos no esta preparada para el plugin:"
+msgstr ""
+
+#: blmaincompany.cpp:254
+msgid "El programa no funcionara adecuadamente."
+msgstr ""
+
+#: blmaincompany.cpp:274
+msgid ""
+"La version de la base de datos no coincide con el programa.\n"
+"\n"
+"El programa no funcionara adecuadamente.\n"
+msgstr ""
+
+#: blformlist.cpp:397
+msgid "Tiene que seleccionar un elemento"
+msgstr ""
+
+#: blformconfig.cpp:112
+msgid "Crear"
+msgstr ""
+
+#: blcountryview.cpp:48 blcountryview.cpp:60 blcountryview.cpp:70
+msgid "Id pais"
+msgstr ""
+
+#: blcountryview.cpp:49 blcountryview.cpp:71
+msgid "Nombre pais"
+msgstr ""
+
+#: blcountryview.cpp:50 blcountryview.cpp:72
+msgid "Codigo 2 digitos"
+msgstr ""
+
+#: blcountryview.cpp:51 blcountryview.cpp:73
+msgid "Codigo 3 digitos"
+msgstr ""
+
+#: blcountryview.cpp:59
+msgid "Id provincia"
+msgstr ""
+
+#: blcountryview.cpp:61
+msgid "Provincia"
+msgstr ""
+
+#: blcountryview.cpp:67
+msgid "Pais"
+msgstr ""
+
+#: blcountryview.cpp:118
+msgid "&Guardar"
+msgstr ""
+
+#: blcountryview.cpp:160
+msgid "Seleccione un pais para guardar"
+msgstr ""
+
+#: blcountryview.cpp:206
+msgid "Error al crear el banco"
+msgstr ""
+
+#: blcountryview.cpp:219
+msgid "Debe seleccionar un elemento de la lista"
+msgstr ""
+
+#: blcountryview.cpp:224
+msgid ""
+"Se va a borrar el pais seleccionado.\n"
+"Esta operacion puede ocasionar perdida de datos."
+msgstr ""
+
+#: blcountryview.cpp:225
+msgid "&Borrar"
+msgstr ""
+
+#: blcountryview.cpp:237
+msgid "Error al intentar borrar el pais"
+msgstr ""
+
+#: blgenericcomboboxdelegate.cpp:132
+msgid "Falta definir algún parámetro necesario para BlGenericComboBoxDelegate."
+msgstr ""
+
+#: blgenericcomboboxdelegate.cpp:210
+#, qt-format
+msgid ""
+"No existen elementos en el listado \"%1\", y el campo \"%2\" requiere alguno."
+msgstr ""
+
+#: blbankedit.cpp:89
+msgid "Cuenta bancaria incorrecta"
+msgstr ""
+
+#: blsearchwidget.cpp:653 blsearchwidget.cpp:792
+msgid "Copiar "
+msgstr ""
+
+#: blsearchwidget.cpp:654 blsearchwidget.cpp:793
+msgid "Pegar"
+msgstr ""

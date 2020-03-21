@@ -1,0 +1,40 @@
+#######
+#Plugins
+#######
+#README.fr
+#20110208
+
+Nombre: Clients
+
+Biblioteca: libpluginbf_cliente.so
+
+Descripción: <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client.svg" WIDTH="100"/><BR>Gestion de clients</H1>
+<P> Il permet d'effectuer la gestion de clients de l'entreprise. En montrant la liste des clients et en lui permettant les modifications nécessaires</P>
+<P>Ce greffon est indispensable pour tous les modèles d'affaire où on travaille avec des clients </P>
+<P>Il sert aussi de base à beaucoup d'autres greffons qui étendent la capacité de celui-ci</P>
+<P>Une fois installé, le greffon nous fournit deux nouvelles options dans le menu  <B>Liste de clients</B> y <B>Nouveau Client</B></P>
+<H2> <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_list.svg" WIDTH="22"/>Liste de Clients</H2>
+<P>Cet écran nous montre les clients inscrits dans l'entreprise. A partit d'ici nous pouvons créer, modifier ou effacer les clients au moyen des boutons situés dans la partie supérieure de la fenêtre. Nous pouvons en outre obtenir sous forme de liste les données les plus importantes de nos clients en un format de présentation propre à être imprimés ou exportés en d'autres formats. </P>
+<P>Depuis cette fenêtre nous pouvons en outre établir des options de filtre avec lesquelles nous pouvons voir les clients qui accomplissent des tâches déterminées. </P>
+<H2> <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client.svg" WIDTH="22"/>Nouveau Client</H2>
+<P>Par cette option nous pouvons créer un nouveau client. En entamant cette action apparaîtra une nouvelle fenêtre qui nous présentera tous les domaines à remplir du client. Il est indispensable de mettre le cif du client pour que le client soit bien créé. Une fois remplis les domaines nous pouvons garder la fiche ou la donner au bouton accepter pour avoir les données introduites dans le système. Si au contraire nous pressons sur annuler nous pouvons fermer la fenêtre sans garder les changements</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias:
+
+Incompatibles:
+
+Orden: 300
+
+Reports: inf_clientes.rml; informecliente.rml; informeclientes.rml; pedidocliente.rml; blform_ClienteView.qs; inf_detalleventascliente.pys; inf_clientes.pys
+
+Categorias: Facturation generique;
+
+Comentarios:

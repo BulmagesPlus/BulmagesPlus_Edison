@@ -1,0 +1,39 @@
+bu#######
+#Plugins
+#######
+#README.fr
+#20110209
+
+Nombre:  Devis clients
+
+Biblioteca: libpluginbf_clientepresupuesto.so
+
+Descripción:  <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_quote.svg" WIDTH="100"/>Devis clients<BR></H1>
+<P>Support pour la création de Devis clients.</P>
+<P>En chargeant le plugin nous aurons deux nouvelles entrées de menu <B>Liste de Devis <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_quote_list.svg" WIDTH="22"/></B>à partir de laquelle nous accéderons au listing de Devis émis et<B>Nouveau Devis <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_quote.svg" WIDTH="22"/></B> de là nous pourrons émettre un nouveau Devis.</P>
+<P>Au moyen du listing de Devis nous pourrons contrôler toutes les Devis émis, les publier et les effacer. Pour cela nous pouvons utiliser la barre de boutons supérieure du listing.</P>
+<P>Il est commun dans tous les listings de BulmaGés de pouvoir les former en présentant les domaines qui nous intéresse. Pour cela nous avons le<B>menu du sous forulaire<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> ou la option <B>Configurer la Liste <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/></B> qui nous présente dans le côté droit latéral du listing tous les domaines présentables par ce dernier, options de pagination et la consultation de base de données qui produit les propos que vous énumérez</P>
+<P><B>Note :</B>Il peut y avoir des options cachées qui sont activées en cliquant le bouton droit de la souris dans certaines zones. Ces options peuvent être vues de manière permanente comme une barre d'outils par l'action<B>Afficher Menu Sous Formulaire<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/></B> Rappelez vous que le bouton droit de la souris peut être votre meilleur allié dans la recherche de certaines actions.</P>
+<P>En créant une nouvelle commande les données nécessaires à remplir sont : le client et le magasin. Le reste des données peut être laisser en blanc pour être postérieurement remplis. Les domaines qui apparaissent sur l'écran peuvent varier selon la configuration des plugins que nous avons et qui nécessitent des informations additionnelles dans les Devis, cette information peut être obligatoire ou non suivant le plugin en question</P>
+<P>Une fois remplies les données nous pouvons garder le Devis ou cliquer le bouton <B>Accepter</B> pour stocker les changements</P>
+<P>Toutes les commandes ont un service d'impression par défaut appelé<B>presupuesto.rml</B>qui définit la manière dans laquelle il imprime le Devis en pressant sur le bouton imprimer. Peuvent en outre exister des rapports additionnels qui apparaissent en pressant avec le bouton droit de la souris dans tout espace vide de l'écran, le Devis ainsi que les actions occultes non accessibles d'une autre manière</P>
+<B>Auteur:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_trabajador.so; libpluginbf_almacen.so; libpluginbf_formasdepago.so; libpluginbf_cliente.so
+
+Incompatibles:
+
+Reports: presupuesto.rml; blform_PresupuestoView.qs; impers_presupuesto_fproforma.rml
+
+Categorias: Facturation generique;
+
+Orden: 620
+
+Comentarios:

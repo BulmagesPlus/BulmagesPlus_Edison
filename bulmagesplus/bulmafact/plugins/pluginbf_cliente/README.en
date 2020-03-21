@@ -1,0 +1,40 @@
+#######
+#Plugins
+#######
+#README.en
+#20080501
+
+Nombre: Costumers
+
+Biblioteca: libpluginbf_cliente.so
+
+Descripción: <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client.svg" WIDTH="100"/><BR>Costumer management</H1>
+<P> It allows to manage the costumers of a company. I shows the listing and allows adding, deleting and modifying.</P>
+<P> This plugin is unavoidable for all business models where costumers are present.</P>
+<P> It is also the base for a lot of other plugins that extend the functionality of this one.</P>
+<P>When we load the plugin we will have to new meny entries <B>Costumers lising</B> from where we can access the listing of costumerse and <B>New costumer</B> from where we will be able to add a new costumer.</P>
+<H2> <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_list.svg" WIDTH="22"/>Costumer listing</H2>
+<P> This template allows as to show all the costumers added in the company. From here we can create, modify or delete the costumers using buttons located in the upper part of the windows. Furthermore we can obtain a listing of the main data of our costumers and we can configure it presentation to be printed or exported to other formats.</P>
+<P> From this window we can also set filtering options and we can see costumers with specific characteristics.</P>
+<H2> <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client.svg" WIDTH="22"/>New Costumer</H2>
+<P>With this option we can create a new costumer. When we start this actio a new window will appear that will present all the fields to be filled for the costumer. It is compulsory to fill the fiscal code to create the costumer correctly. Once the fields have been filled we will be able to save the record or click the accept button to introduce the data into the system. If we click on cancel we can save the window without saving the data.</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias:
+
+Incompatibles:
+
+Orden: 300
+
+Reports: inf_clientes.rml; informecliente.rml; informeclientes.rml; pedidocliente.rml; blform_ClienteView.qs; inf_detalleventascliente.pys; inf_clientes.pys
+
+Categorias: Generic invoicing;
+
+Comentarios:

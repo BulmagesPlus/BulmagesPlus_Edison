@@ -1,0 +1,8 @@
+#FacturaBase #subform2 #mui_list {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/fr_FR/pluginbf_clientefactura-new.png);
+}
+
+#FacturasListBase #mui_list {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/fr_FR/pluginbf_clientefactura-list.png);
+}
+

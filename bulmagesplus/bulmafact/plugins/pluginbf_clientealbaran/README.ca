@@ -1,0 +1,41 @@
+#######
+#Plugins
+#######
+#README.ca
+#20080501
+
+Nombre: Albarans a clients
+
+Biblioteca: libpluginbf_clientealbaran.so
+
+Descripción:  <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="100"/><BR>Albarans a clients</H1>
+<P>Suport per a emissió d'albarans a clients.</P>
+<P>En carregar el plugin tindrem dues noves entrades de menú <B>Llistat d'Albarans <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note_list.svg" WIDTH="22"/></B> des de la qual accedirem al llistat d'albarans emesos i <B>Nou Albaran <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="22"/></B> des del qual podrem emtre un nou albaran.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="22"/>LListat d'Albarans</H2>
+<P> Mitjançant el llistat d'albarans podrem controlas tots els albarans emesos, editar-los o esborrar-los. Per a això podem utilitzar la barra de botson superior del llistat.</P>
+<P> És comú en tots els llistat de BulmaGés poder configurar-los presentant els camps que ens interessi. Per a això tenim el <B>menú de subformulari <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> o l'opció <B>Configurar llistat  <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/></B> que ens presenta al lateral dret del llistat tots els camps que pot mostrar, opcions de paginació i la consulta de base de dades qeu genera aquest llistat.</P>
+<P><B>Nota:</B>Poden haver-hi opcions ocultes que no veieu i que s'activen mitjançant el botó dret del ratolí a determinades zones. Aquestes opcions es poden veure de forma permanent com una barra de eines mitjançant l'acció <B>Mostrar Menú SubFormulari <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/></B> Recordi que el botó dret del ratolí pot ser el vostre millor aliat en la búsqueda de determinades acions.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="32"/>Nou Albarà</H2>
+<P>En crear un nou albarà les dades necessàries a omplir són el client i el magatzem. La resta de camps poden deixar-se en blanc per ser omplertes posteriorment. Els camps que apareixen a la pantalla poden variar segons la configuraicó de plugins que tinguem i que precisin d'informació addicional als albaran. Aquesta informació pot ser obligatòria o no depenent del plugin en qüestió.</P>
+<P>Un cop omplertes les dades podem desar l'albarà o donar-li al botó <B>Acceptar</B> per desar el canvis.</P>
+<P>Tots els albarans tenen una plantilla d'impressió per defecte anomenada <B>albarn.tml</B> que conforma la forma com s'imprimeix l'albarà en pulsar sobre el botó imprimir. A més poden existir informes addicionals que apareixen en pulsar amb el botó dret del ratolí a qualsevol espai buit de la pantalla de l'albarà així com accions ocultes no accesible d'una altra manera.</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_cliente.so
+
+Incompatibles:
+
+Reports: albarancliente.rml; albaran.rml; blform_AlbaranClienteView.qs
+
+Categorias: Facturació genèrica;
+
+Orden: 622
+
+Comentarios:

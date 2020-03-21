@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE document SYSTEM "rml_1_0.dtd">
+<document>
+<template pageSize="(21cm, 29.7cm)" leftMargin="0cm" rightMargin="0cm" topMargin="1.0cm" bottomMargin="2.0cm" title="Albaran" author="Tomeu Borras" allowSplitting="20">
+	<pageTemplate id="main">
+		<pageGraphics>
+		<include src="[CONF_DIR_OPENREPORTS]plantilla.rml"/>
+
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<setFont name="Helvetica" size="22"/>
+		<drawString x="1.5cm" y="24.5cm">ALBARAN</drawString>
+
+<!--IF QUERY="SELECT * FROM CLIENTE WHERE idcliente = [idcliente]"-->
+<!--QUERY="SELECT * FROM cliente WHERE idcliente=[idcliente]"-->
+
+		<!-- LOS DATOS DEL CLIENTE -->
+		<setFont name="Helvetica" size="12"/>
+		<drawString x="8.5cm" y="24cm">[nomcliente] -- [telcliente]</drawString>
+		<drawString x="8.5cm" y="23.5cm">[dircliente]</drawString>
+		<drawString x="8.5cm" y="23cm">[poblcliente]</drawString>
+
+		<setFont name="Helvetica" size="12"/>
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<drawCentredString x="5.5cm" y="21.2cm">NIF</drawCentredString>
+		<drawCentredString x="8.5cm" y="21.2cm">Cliente</drawCentredString>
+		<drawCentredString x="11.5cm" y="21.2cm">Fecha</drawCentredString>
+		<drawCentredString x="14.5cm" y="21.2cm">N. Alb</drawCentredString>
+		<drawCentredString x="17.5cm" y="21.2cm">Ref.</drawCentredString>
+		<setFont name="Helvetica" size="12"/>
+		<drawCentredString x="5.5cm" y="20.4cm">[cifcliente]</drawCentredString>
+		<drawCentredString x="8.5cm" y="20.4cm">[idcliente]</drawCentredString>
+		<drawCentredString x="11.5cm" y="20.4cm">[fechaalbaran]</drawCentredString>
+		<drawCentredString x="14.5cm" y="20.4cm">[numalbaran]</drawCentredString>
+		<drawCentredString x="17.5cm" y="20.4cm">[refalbaran]</drawCentredString>
+	</pageGraphics>
+
+<!--END QUERY-->
+<!--END IF QUERY-->
+
+		<!-- FRAME DE CONTENIDOS -->
+		<frame id="column" x1="1cm" y1="5cm" width="19cm" height="15cm"/>
+	</pageTemplate>
+
+</template>
+
+<include src="[CONF_DIR_OPENREPORTS]estilos.rml"/>
+
+<story>
+<blockTable style="tablacontenido" colWidths="1.75cm, 8.55cm, 1.2cm, 1.7cm, 1.8cm, 2.25cm" repeatRows="1">
+<tr>
+<td>Codigo</td>
+<td>Concepto</td>
+<td>Und.</td>
+<td>Precio</td>
+<td>Dto.</td>
+<td>Total</td>
+</tr>
+[story]
+</blockTable>
+
+<storyPlace x="0cm" y="0cm" width="15cm" height="1cm">
+	<place x="4cm" y="3.5cm" width="15cm" height="2.5cm">
+<blockTable>
+<tr>
+<td align="right">
+	[descuentos]
+</td>
+</tr>
+</blockTable>
+</place>
+</storyPlace>
+
+<storyPlace x="0cm" y="0cm" width="20cm" height="1cm">
+<place x="6cm" y="2cm" width="20cm" height="2.5cm">
+<blockTable>
+<tr>
+	<td align="right">
+		[totales]
+	</td>
+</tr>
+</blockTable>
+</place>
+</storyPlace>
+
+<!-- storyPlace x="16cm" y="27cm" width="15cm" height="1cm">
+<place x="16cm" y="27cm" width="15cm" height="2.5cm">
+<barCode code="code128" height="1cm">ALB [idalbaran] [numalbaran] [refalbaran]</barCode>
+</place>
+</storyPlace -->
+
+</story>
+</document>

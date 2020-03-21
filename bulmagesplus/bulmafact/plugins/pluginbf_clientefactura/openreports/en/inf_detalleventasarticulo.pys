@@ -1,0 +1,28 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
+# pathtitle="&Ventas\Informes\Detalle de ventas por articulo"
+# title="Detalle de ventas por artículo"
+
+import ooolib
+
+# Crea el documento
+doc = ooolib.Calc("Detalle de ventas (por artículo)")
+
+doc.set_column_property(1, 'width', '0.5in')
+doc.set_column_property(2, 'width', '5in')
+doc.set_cell_property('bold', True)
+doc.set_cell_value(2, 2, 'string', 'DETALLE DE VENTAS (POR ARTÍCULO)')
+i = 5
+<!--QUERY="select articulo.idarticulo, articulo.nomarticulo, cliente.nomcliente, albaran.fechaalbaran, lalbaran.desclalbaran, lalbaran.pvplalbaran from lalbaran, albaran, cliente, articulo where cliente.idcliente = albaran.idcliente AND lalbaran.idalbaran = albaran.idalbaran AND lalbaran.idarticulo = articulo.idarticulo order by articulo.nomarticulo"-->
+
+doc.set_cell_value(1, i, 'string', '[nomarticulo]')
+doc.set_cell_value(2, i, 'string', "[nomcliente]")
+doc.set_cell_value(3, i, 'string', '[fechaalbaran]')
+doc.set_cell_value(4, i, 'string', "[desclalbaran]")
+doc.set_cell_value(5, i, 'string', '[pvplalbaran]')
+i = i + 1
+<!--END QUERY-->
+
+# Guardamos el documento
+doc.save("inf_detalleventasarticulo.ods")

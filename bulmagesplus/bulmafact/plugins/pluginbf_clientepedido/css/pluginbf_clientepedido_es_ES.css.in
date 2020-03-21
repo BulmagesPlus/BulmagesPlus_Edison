@@ -1,0 +1,8 @@
+#PedidoClienteBase #subform3 #mui_list {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/es_ES/pluginbf_clientepedido-new.png);
+}
+
+#PedidosClienteListBase #mui_list {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/es_ES/pluginbf_clientepedido-list.png);
+}
+

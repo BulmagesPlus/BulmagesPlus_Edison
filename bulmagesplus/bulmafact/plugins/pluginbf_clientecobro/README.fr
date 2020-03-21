@@ -1,0 +1,41 @@
+#######
+#Plugins
+#######
+#README.fr
+#20110208
+
+Nombre: Encaissements
+
+Biblioteca: libpluginbf_clientecobro.so
+
+Descripción:  <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="100"/><BR>Encaissements de clients</H1>
+<P>Support pour émission d'encaissements à des clients. </P>
+<P>En chargeant le plugin nous aurons deux nouvelles entrées de meńu  <B>Liste des encaissements<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect_list.svg" WIDTH="22"/></B> Qui nous permet d'accéder à la liste des encaissemets émis et <B>Nouvel Encaissement<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="22"/></B> qui nous permet d'émettre un nouvel encaissemnt.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="22"/>Listado de Cobros</H2>
+<P>Au moyen du listing d'encaissements nous pourrons contrôler tous les encaissements émis, les publier et les effacer. Pour cela nous pouvons utiliser la barre de boutons supérieure du listing. </P>
+<P>Il est commun dans tous les listings de BulmaGés de pouvoir les former en présentant les domaines qui nous intéresse. Pour cela nous avons le <B>menu du sous formulaire<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> ou l'option <B>Configurer la liste<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/>qui nous présente dans le côté droit latéral du listing tous les domaines présentables par ce dernier, options de pagination et la consultation de base de données qui produit ce listing</B>Il peut y avoir des options occultes pour vous qui sont activées par la pulsation du bouton droit de la souris dans certaines zones. Ces options peuvent être vues de manière permanente comme une barre d'outils par l'action </P>
+<P><B>Nota:</B><B>Afficher le Menu Sous Formulaire <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/></B>Rappelez vous que le bouton droit de la souris peut être votre meilleur allié dans la recherche de certaines actions.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/collect.svg" WIDTH="32"/>Nouvel encaissement</H2>
+<P>En créant un nouvel encaissement les données nécessaires à remplir sont le client et le magasin. Le reste de domaines peuvent être laisser en blanc pour être postérieurement remplis. Les domaines qui apparaissent sur l'écran peuvent varier selon la configuration des plugins que nous avons et qui nécessitent des informations additionnelles dans les encaissements, cette information peut être obligatoire ou non suivant le plugin en question</P>
+<P>Une fois remplies les données nous pouvons garder l'encaissement ou le donner au bouton Accepter pour stocker les changements</P>
+<P>Tous les encaissements ont un service d'impression par défaut appelée <B>recibo.rml</B> qui est conforme à la manière dans laquelle il imprime l'encaissement en poussant sur le bouton imprimer. Peuvent en outre exister des rapports additionnels qui apparaissent en poussant avec le bouton droit de la souris dans tout espace vide de l'écran, de  l'encaissement ainsi que les actions occultes non accessibles d'une autre manière</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_cliente.so
+
+Incompatibles: libpluginbf_carteracobros.so
+
+Reports: recibo.rml; blform_CobroView.qs
+
+Categorias: Facturation generique;
+
+Orden: 624
+
+Comentarios:

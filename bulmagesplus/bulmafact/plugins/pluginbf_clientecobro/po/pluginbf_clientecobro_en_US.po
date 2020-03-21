@@ -1,0 +1,358 @@
+# #-#-#-#-#  bulmafact_en_US.po  #-#-#-#-#
+# translation of bulmafact_en_US.po to
+# Header entry was created by KBabel!
+#
+# Fco. Javier M. C. <fcojavmc@gmail.com>, 2009.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: info@iglues.org\n"
+"POT-Creation-Date: 2011-08-16 13:15+0200\n"
+"PO-Revision-Date: 2009-01-26 09:32+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team:  <en@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_cobrobase.h:416
+msgid "&Aceptar"
+msgstr "&Accept"
+
+#: ui_cobrobase.h:417
+msgid "&Cancelar"
+msgstr "&Cancel"
+
+#: pluginbf_clientecobro.cpp:58
+msgid "&Cobros de clientes"
+msgstr ""
+
+#: pluginbf_clientecobro.cpp:67
+msgid "&Nuevo cobro de cliente"
+msgstr ""
+
+#: pluginbf_clientecobro.cpp:53
+msgid "&Ventas"
+msgstr ""
+
+#: ui_cobroslistbase.h:434 ui_cobroslistbase.h:437
+msgid "Actualizar listado"
+msgstr "Update listing"
+
+#: cobroslist.cpp:340
+#, fuzzy
+msgid "Apellidos del trabajador"
+msgstr "List of workers:"
+
+#: cobroslist.cpp:270 ui_cobrobase.h:393 ui_cobrobase.h:396 ui_cobrobase.h:401
+#: ui_cobrobase.h:404 ui_cobroslistbase.h:402 ui_cobroslistbase.h:405
+#, fuzzy
+msgid "Borrar cobro"
+msgstr "Erase quota"
+
+#: ui_cobroslistbase.h:441
+msgid "Buscar:"
+msgstr "Look for:"
+
+#: cobroslist.cpp:328
+msgid "C.I.F."
+msgstr "C.I.F."
+
+#: cobroslist.cpp:333
+msgid "Cantidad"
+msgstr "Amount"
+
+#: cobroview.cpp:64
+msgid "Cliente"
+msgstr "Client"
+
+#: cobroview.cpp:54 cobroslist.cpp:51 cobroslist.cpp:85
+msgid "Cliente:"
+msgstr "Client:"
+
+#: cobroview.cpp:60
+#, fuzzy
+msgid "Cobro"
+msgstr "Received"
+
+#: cobroslist.cpp:58
+msgid "Cobro real"
+msgstr ""
+
+#: cobroslist.cpp:196 ui_cobroslistbase.h:382
+#, fuzzy
+msgid "Cobros a clientes"
+msgstr "Erase client"
+
+#: pluginbf_clientecobro.cpp:60 pluginbf_clientecobro.cpp:61
+#, fuzzy
+msgid "Cobros de clientes"
+msgstr "Name of client"
+
+#: cobroslist.cpp:337
+#, fuzzy
+msgid "Comentarios"
+msgstr ""
+"#-#-#-#-#  bulmacont_en_US.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Comments\n"
+"#-#-#-#-#  bulmafact_en_US.po  #-#-#-#-#\n"
+"Commentaries"
+
+#: ui_cobroslistbase.h:426 ui_cobroslistbase.h:429
+msgid "Configurar listado"
+msgstr "Form listing"
+
+#: ui_cobroslistbase.h:432
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: ui_cobrobase.h:399 ui_cobroslistbase.h:408
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: ui_cobroslistbase.h:400
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+#: ui_cobroslistbase.h:424
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: ui_cobrobase.h:407
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+#: ui_cobroslistbase.h:392
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: ui_cobroslistbase.h:416
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: ui_cobrobase.h:391
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: cobroslist.cpp:253
+#, fuzzy
+msgid "Debe seleccionar una fila primero"
+msgstr "It must select a family"
+
+#: cobroslist.cpp:212
+#, fuzzy
+msgid "Debe seleccionar una linea"
+msgstr "It must select a family"
+
+#: cobroview.cpp:70
+#, fuzzy
+msgid "Descripcion del cobro"
+msgstr "Description of the seat"
+
+#: ui_cobrobase.h:412
+#, fuzzy
+msgid "Descripcion del cobro:"
+msgstr "Description of the seat"
+
+#: cobroslist.cpp:330
+msgid "Direccion de correo electronico"
+msgstr "Direction of electronic mail"
+
+#: cobroslist.cpp:269 ui_cobroslistbase.h:394 ui_cobroslistbase.h:397
+#, fuzzy
+msgid "Editar cobro"
+msgstr "Publish"
+
+#: cobroslist.cpp:226
+#, fuzzy
+msgid "Error al borrar el cobro a cliente"
+msgstr "Error when erasing a client"
+
+#: cobroview.cpp:79
+#, fuzzy
+msgid "Error al crear el cobro"
+msgstr "Error when creating article"
+
+#: ui_cobroslistbase.h:440
+msgid "F5"
+msgstr "F5"
+
+#: cobroslist.cpp:331
+#, fuzzy
+msgid "Fecha de cobro"
+msgstr "Date of the purchase"
+
+#: cobroview.cpp:67 cobroslist.cpp:332
+#, fuzzy
+msgid "Fecha de vencimiento"
+msgstr "Date of the seat"
+
+#: ui_cobrobase.h:411
+#, fuzzy
+msgid "Fecha de vencimiento:"
+msgstr "&Date of the seat:"
+
+#: cobroview.cpp:66
+#, fuzzy
+msgid "Fecha del cobro"
+msgstr "Date of the purchase"
+
+#: ui_cobrobase.h:409
+#, fuzzy
+msgid "Fecha del cobro:"
+msgstr "Date of the purchase"
+
+#: ui_cobroslistbase.h:444
+#, fuzzy
+msgid "Fecha final:"
+msgstr "Final &date:"
+
+#: ui_cobroslistbase.h:443
+#, fuzzy
+msgid "Fecha inicial:"
+msgstr "Initial &date:"
+
+#: ui_cobroslistbase.h:418 ui_cobroslistbase.h:421
+#, fuzzy
+msgid "Filtrar cobros"
+msgstr "leak "
+
+#: cobroview.cpp:71 cobroslist.cpp:334
+#, fuzzy
+msgid "Forma de Pago"
+msgstr ""
+"#-#-#-#-#  bulmacont_en_US.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Modes of payment\n"
+"#-#-#-#-#  bulmafact_en_US.po  #-#-#-#-#\n"
+
+#: ui_cobrobase.h:414 ui_cobroslistbase.h:445
+msgid "Forma de pago:"
+msgstr "Mode of payment:"
+
+#: ui_cobrobase.h:385 ui_cobrobase.h:388
+#, fuzzy
+msgid "Guardar cobro"
+msgstr "Keep changes"
+
+#: cobroslist.cpp:326
+msgid "ID cliente"
+msgstr "ID client"
+
+#: cobroslist.cpp:325
+msgid "ID cobro"
+msgstr ""
+
+#: cobroslist.cpp:338
+#, fuzzy
+msgid "ID trabajador"
+msgstr "Worker"
+
+#: cobroview.cpp:63
+#, fuzzy
+msgid "Id cobro"
+msgstr "Id rough draft"
+
+#: ui_cobroslistbase.h:410 ui_cobroslistbase.h:413
+msgid "Imprimir listado"
+msgstr "Print listing"
+
+#: cobroslist.cpp:327
+msgid "Nombre"
+msgstr "Name"
+
+#: cobroslist.cpp:339
+#, fuzzy
+msgid "Nombre del trabajador"
+msgstr "Name of the supplier"
+
+#: ui_cobroslistbase.h:386 ui_cobroslistbase.h:389
+#, fuzzy
+msgid "Nuevo cobro"
+msgstr "New article"
+
+#: ui_cobrobase.h:382
+#, fuzzy
+msgid "Nuevo cobro a cliente"
+msgstr "New client"
+
+#: pluginbf_clientecobro.cpp:69 pluginbf_clientecobro.cpp:70
+#, fuzzy
+msgid "Nuevo cobro de cliente"
+msgstr "Name of client"
+
+#: cobroslist.cpp:329
+msgid "Numero de telefono"
+msgstr "Number of telephone"
+
+#: cobroview.cpp:65
+#, fuzzy
+msgid "Prevision"
+msgstr "Abbreviation"
+
+#: cobroslist.cpp:336
+msgid "Prevision de cobro"
+msgstr ""
+
+#: ui_cobrobase.h:410
+msgid "Prevision de fondos"
+msgstr ""
+
+#: cobroview.cpp:68
+msgid "Referencia"
+msgstr "Reference"
+
+#: cobroslist.cpp:335
+#, fuzzy
+msgid "Referencia del cobro"
+msgstr "Reference"
+
+#: ui_cobrobase.h:408
+msgid "Referencia:"
+msgstr "Reference"
+
+#: cobroslist.cpp:57
+msgid "Solo previsiones"
+msgstr ""
+
+#: cobroview.cpp:127
+msgid "Tiene que guardar el documento antes de poder imprimirlo."
+msgstr "You must save the document before printing."
+
+#: ui_cobroslistbase.h:442
+msgid "Tipo de cobro:"
+msgstr ""
+
+#: cobroview.cpp:154
+msgid ""
+"Toda la referencia esta cobrada. Se procesaran todos los documentos con esta "
+"referencia"
+msgstr ""
+
+#: cobroslist.cpp:56
+msgid "Todos los cobros"
+msgstr ""
+
+#: cobroview.cpp:69
+#, fuzzy
+msgid "Total cobro"
+msgstr "Total To have:"
+
+#: ui_cobrobase.h:413
+#, fuzzy
+msgid "Total cobro:"
+msgstr "Total To have:"
+
+#: ui_cobroslistbase.h:383
+#, fuzzy
+msgid "Total:"
+msgstr "Total"
+
+#: cobroview.cpp:72
+msgid "Trabajador"
+msgstr "Worker"
+
+#: ui_cobrobase.h:415
+msgid "Trabajador:"
+msgstr "Worker:"

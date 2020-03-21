@@ -1,0 +1,26 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
+# pathtitle="&Compras\Informes\Listado de Clientes"
+# title="Clientes"
+
+import ooolib
+
+# Crea el documento
+doc = ooolib.Calc("Clientes")
+
+doc.set_column_property(1, 'width', '0.5in')
+doc.set_column_property(2, 'width', '5in')
+doc.set_cell_property('bold', True)
+doc.set_cell_value(2, 2, 'string', 'LISTADO CLIENTES')
+i = 5
+<!--QUERY="SELECT * FROM cliente"-->
+
+doc.set_cell_value(1,i,'string','[cifcliente]')
+doc.set_cell_value(2,i,'string',"[nomcliente]")
+doc.set_cell_value(3,i,'string','[telcliente]')
+i = i + 1
+<!--END QUERY-->
+
+# Guardamos el documento
+doc.save("inf_clientes.ods")

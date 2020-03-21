@@ -1,0 +1,41 @@
+#######
+#Plugins
+#######
+#README.fr
+#20110208
+
+Nombre: Bulletins de livraison à des clients
+Puede haber opciones ocultas para usted que se activan mediante la pulsación del botón derecho del ratón en determinadas zonas. Estas opciones pueden verse de forma permanente como una barra de herramientas mediante la acción 
+Biblioteca: libpluginbf_clientealbaran.so
+
+Descripción:  <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="100"/><BR>Bulletins de livraison à des clients</H1>
+<P>Support pour l'émission de bulletin de livraison.</P>
+<P>En chargeant le plugin nous aurons deux nouvelles entrées de menu<B>Liste de bulletin de livraison<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note_list.svg" WIDTH="22"/></B>à partir de là nous accéderons à la liste de bulletins de livraison émis  <B>Nouveau bulletin de livraison <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="22"/></B>depuis lequel nous pourrons émettre un nouveau bulletin de livraison. </P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="22"/>Liste de bulletin de livraison</H2>
+<P>Au moyen du listing de bulletins de livraison nous pourrons contrôler tous les bulletins de livraison émis, les publier et les effacer. Pour cela nous pouvons utiliser la barre de boutons supérieure du listing.</P>
+<P> Il est commun dans tous les listings de BulmaGés de pouvoir les former en présentant les domaines qui nous intéresse. Pour cela nous avons le <B>menu de sous formulaire <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> ou l'option <B>Configurer la Liste<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/></B>qui nous présente dans le coin droit latéral du listing tous les domaines présentables par ce dernier, options de pagination et la consultation de base de données qui produit ce listing </P>
+<P><B>Nota:</B>Il peut y avoir des options occulter pour vous qui sont activées par la pression du bouton droit de la souris dans certaines zones. Ces options peuvent être vues de manière permanente comme une barre d'outils par l'action <B>Afficher le Menu du Sous Formulaire <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/></B>Rappelez vous que le bouton droit de la souris peut être votre la meilleur allié dans la recherche de certaines actions.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_note.svg" WIDTH="32"/>Nouveau bulletin</H2>
+<P>En créant un nouveau bulletin de livraison les données nécessaires à remplir sont le client et le magasin. Le reste de champs peuvent être laisser en blanc pour être postérieurement remplis. Les champs qui apparaissent sur l'écran peuvent varier selon la configuration du greffon que nous avons et qu'ils nécessitent des informations additionnelles dans les bulletins de livraison, cette information peut être obligatoire ou non suivant le greffon en question</P>
+<P>Une fois remplies les données nous pouvons garder le bulletin de livraison ou les donner au bouton Accepter pour stocker les changements</P>
+<P>Tous les bulletins de livraison ont un service d'impression par défaut appelé <B>albaran.rml</B>qui prépare la manière dans laquelle on imprime le bulletin de livraison en pressant sur le bouton imprimer. Peuvent en outre exister des rapports additionnels qui apparaissent en pressant le bouton droit de la souris dans tout espace vide de l'écran le bulletin de livraison ainsi que les actions occultes non accessibles d'une autre manière </P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_cliente.so
+
+Incompatibles:
+
+Reports: albarancliente.rml; albaran.rml; blform_AlbaranClienteView.qs
+
+Categorias: Facturation generique;
+
+Orden: 622
+
+Comentarios:

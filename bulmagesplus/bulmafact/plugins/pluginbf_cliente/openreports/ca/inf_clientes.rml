@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE document SYSTEM "rml_1_0.dtd">
+<document>
+<template pageSize="(29.7cm, 21cm)" leftMargin="0cm" rightMargin="0cm" topMargin="2.0cm" bottomMargin="2.0cm" title="Informe de Ventas a Clientes" author="Tomeu Borras" allowSplitting="20">
+<!-- pathtitle="&Ventas\Informes\Ventas a Clientes (PDF)" -->
+	<pageTemplate id="main">
+		<pageGraphics>
+		<!-- EL LOGO DE CABECERA -->
+		<image x="0.5cm" y="18.2cm" width="7cm" file="logo.jpg"/>
+
+		<!-- EL DRAFT -->
+			<!-- setFont name="Helvetica" size="100"/>
+			<fill color="(1,0.9,0.9)"/>
+			<stroke color="(1,0.9,0.9)"/>
+			<translate dx="13cm" dy="-10.5cm"/>
+			<rotate degrees="30"/>
+			<drawString x="23mm" y="15.7cm">BORRADOR</drawString>
+			<lineMode width="4mm"/>
+			<rect round="1cm" x="18mm" y="15cm" width="21cm" height="4cm" fill="no" stroke="yes"/>	
+		<rotate degrees="-30"/>
+		<translate dx="-13cm" dy="10.5cm"/ -->
+
+		<!-- EL PIE DE PAGINA -->
+		<setFont name="Helvetica" size="8"/>		
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<drawString x="13.3cm" y="0.5cm">www.bulmageswin.com -- info@bulmageswin.com --</drawString>
+
+
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<setFont name="Helvetica" size="22"/>
+		<drawString x="18cm" y="19.5cm">Informe de Ventas</drawString>
+		</pageGraphics>
+	<frame id="column" x1="1cm" y1="1cm" width="27cm" height="17.5cm"/>
+	</pageTemplate>
+</template>
+<stylesheet>
+	<blockTableStyle id="tabla">
+		<blockAlignment value="RIGHT" start="0,1" stop="-1,-1"/>
+		<blockAlignment value="CENTER" start="0,0" stop="-1,0"/>
+		<blockBackground colorName="(0.7,0.7,0.7)" start="0,0" stop="-1,0"/>
+		<blockTextColor colorName="(0,0,0)" start="0,0" stop="-1,0"/>
+		<lineStyle kind="LINEBEFORE" colorName="(0.5,0.5,0.5)"  start="0,0" stop="-1,-1"/>
+		<lineStyle kind="LINEBELOW" colorName="(0,0,0)"  start="0,0" stop="-1,-1"/>
+		<lineStyle kind="OUTLINE" colorName="black"  start="0,0" stop="-1,-1"/>
+		<blockFont name="Helvetica-Bold" size="6" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica" size="6" start="0,1" stop="-1,-1"/>
+		<blockFont name="Helvetica" size="6" start="1,1" stop="1,-1"/>
+		<blockValign value="TOP" start="0,0" stop="-1,-1"/>
+		<blockTopPadding length="0cm" start="0,0" stop="-1,-1"/>
+		<blockBottomPadding length="0cm" start="0,0" stop="-1,-1"/>
+	</blockTableStyle>
+</stylesheet>
+
+
+<story>
+<title> Total Ventas por Clientes</title>
+
+<blockTable style="tabla">
+<tr><td>Cliente</td><td>Compras</td></tr>
+<!--QUERY="SELECT * FROM cliente ORDER BY nomcliente"-->
+
+<!--IF SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS total FROM factura  WHERE idcliente=[idcliente]"-->
+
+
+<tr>
+<td topPadding="0" bottomPadding="0"><para>[codcliente] [nomcliente]</para></td>
+
+
+<!-- SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS total FROM factura  WHERE idcliente=[idcliente]"-->
+<td>[total] euros</td>
+<!-- END SUBQUERY-->
+
+</tr>
+
+<!--END IF SUBQUERY-->
+<!--END QUERY-->
+</blockTable>
+
+<nextPage/>
+
+<title> Top 20 Clientes</title>
+<illustration width="10cm" height="12cm">
+<barChart x="0cm" y="0cm" width="15cm">               
+<!--QUERY="select COALESCE(sum(totalfactura),0) AS tot, nomcliente FROM factura LEFT JOIN cliente ON factura.idcliente = cliente.idcliente  group by factura.idcliente, cliente.nomcliente ORDER BY tot DESC LIMIT 20"-->
+<categorie color="(1,0.4,0.6)">[nomcliente]</categorie>
+<data>[tot]</data>
+<!--END QUERY-->
+</barChart>  
+</illustration>
+
+<nextPage/>
+
+<title> Ventas por Meses</title>
+
+<blockTable style="tabla">
+<!--QUERY="select '01/01/2007'::date as fin,  '31/01/2007'::date as fout 
+union select '01/02/2007'::date, '28/02/2007'::date 
+union select '01/03/2007'::date, '31/03/2007'::date
+union select '01/04/2007'::date, '30/04/2007'::date
+union select '01/05/2007'::date, '31/05/2007'::date
+union select '01/06/2007'::date, '30/06/2007'::date
+union select '01/07/2007'::date, '31/07/2007'::date
+union select '01/08/2007'::date, '31/08/2007'::date
+union select '01/09/2007'::date, '30/09/2007'::date
+union select '01/10/2007'::date, '31/10/2007'::date
+union select '01/11/2007'::date, '30/11/2007'::date
+union select '01/12/2007'::date, '31/12/2007'::date"-->
+
+
+<!--IF SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS total FROM factura  WHERE ffactura >= '[fin]'::date AND ffactura <= '[fout]'::date"-->
+
+
+<tr>
+<td><para>[fin] [fout]</para></td>
+
+<!-- SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS total FROM factura  WHERE ffactura >= '[fin]'::date AND ffactura <= '[fout]'::date"-->
+
+<td>[total] euros</td>
+
+<!-- END SUBQUERY-->
+
+<!--END IF SUBQUERY-->
+
+
+
+</tr>
+<!--END QUERY-->
+</blockTable>
+
+<illustration width="16cm" height="7cm">
+<barChart x="0cm" y="0cm" width="15cm">               
+
+<!--QUERY="select '01/01/2007'::date as fin,  '31/01/2007'::date as fout 
+union select '01/02/2007'::date, '28/02/2007'::date 
+union select '01/03/2007'::date, '31/03/2007'::date
+union select '01/04/2007'::date, '30/04/2007'::date
+union select '01/05/2007'::date, '31/05/2007'::date
+union select '01/06/2007'::date, '30/06/2007'::date
+union select '01/07/2007'::date, '31/07/2007'::date
+union select '01/08/2007'::date, '31/08/2007'::date
+union select '01/09/2007'::date, '30/09/2007'::date
+union select '01/10/2007'::date, '31/10/2007'::date
+union select '01/11/2007'::date, '30/11/2007'::date
+union select '01/12/2007'::date, '31/12/2007'::date"-->
+
+<!--IF SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS totalr FROM factura  WHERE ffactura >= '[fin]'::date AND ffactura <= '[fout]'::date"-->
+<!-- SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS totalr FROM factura  WHERE ffactura >= '[fin]'::date AND ffactura <= '[fout]'::date"-->
+<categorie color="(1,0.4,0.6)">[fin] - [fout]</categorie>
+<data>[totalr]</data>
+<!-- END SUBQUERY-->
+
+<!--END IF SUBQUERY-->
+<!--END QUERY-->
+
+</barChart>  
+</illustration>
+
+<nextPage/>
+
+
+<title> Ventas por dia de la semana</title>
+
+<!-- illustration width="20cm" height="12cm" -->
+<storyPlace x="0cm" y="10cm" width="10cm" height="10cm">
+<pieChart x="2cm" y="10cm" width="7cm">               
+
+<!--QUERY="select 'Domingo' as fin,  0 as fout 
+union select 'Lunes', 1 
+union select 'Martes', 2 
+union select 'Miercoles', 3 
+union select 'Jueves', 4 
+union select 'Viernes', 5 
+union select 'Sabado', 6 
+ORDER BY fout"-->
+
+
+<!-- SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS totalr FROM factura  WHERE EXTRACT('dow' from ffactura) = [fout] " -->
+<categorie color="(1,0.4,0.6)">[fin]</categorie>
+<data>[totalr]</data>
+<!-- END SUBQUERY-->
+<!--END QUERY-->
+</pieChart>  
+
+<barChart x="15cm" y="5cm" width="7cm">               
+<!--QUERY="select 'Domingo' as fin,  0 as fout 
+union select 'Lunes', 1 
+union select 'Martes', 2 
+union select 'Miercoles', 3 
+union select 'Jueves', 4 
+union select 'Viernes', 5 
+union select 'Sabado', 6 
+ORDER BY fout"-->
+<!-- SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS totalr FROM factura  WHERE EXTRACT('dow' from ffactura) = [fout] " -->
+<categorie color="(1,0.4,0.6)">[fin]</categorie>
+<data>[totalr]</data>
+<!-- END SUBQUERY-->
+<!--END QUERY-->
+</barChart>  
+</storyPlace>
+<!-- /illustration -->
+
+<nextPage/>
+
+
+<title> Ventas por dia del mes</title>
+
+<illustration width="17cm" height="12cm">
+<barChart x="0cm" y="0cm" width="500" >               
+
+<!--QUERY="select 1 as fout
+union select 2 union select 3 union select 4 union select 5 union select 6 union select 7 union select 8 union select 9 union select 10
+union select 11 union select 12 union select 13 union select 14 union select 15 union select 16 union select 17 union select 18 union select 19 union select 20
+union select 21 union select 22 union select 23 union select 24 union select 25 union select 26 union select 27 union select 28 union select 29 union select 30 
+union select 31
+ORDER BY fout"-->
+
+
+<!-- SUBQUERY="SELECT COALESCE(sum(totalfactura),0) AS totalr FROM factura  WHERE EXTRACT('day' from ffactura) = [fout] " -->
+<categorie color="(1,0.4,0.6)">[fout]</categorie>
+<data>[totalr]</data>
+<!-- END SUBQUERY-->
+
+<!--END QUERY-->
+
+</barChart>  
+</illustration>
+
+</story>
+</document>

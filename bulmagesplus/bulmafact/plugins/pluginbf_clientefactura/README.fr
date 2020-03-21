@@ -1,0 +1,38 @@
+#######
+#Plugins
+#######
+#README.fr
+#20110209
+
+Nombre: Factures clients
+
+Biblioteca: libpluginbf_clientefactura.so
+
+Descripción: <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_invoice.svg" WIDTH="100"/><BR>Factures clients</H1>
+<P>Support pour la création de factures clients.</P>
+<P>En chargeant le plugin nous aurons deux nouvelles entrées de menu <B>Liste de Factures <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_invoice_list.svg" WIDTH="22"/></B>à partir de laquelle nous accéderons au listing de factures émises et <B>Nouvelle facture <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_invoice.svg" WIDTH="22"/></B> de là nous pourrons émettre une nouvelle facture.<P>Au moyen du listing de factures nous pourrons contrôler toutes les factures émises, les publier et les effacer. Pour cela nous pouvons utiliser la barre de boutons supérieure du listing. </P>
+<P>Il est commun dans tous les listings de BulmaGés de pouvoir les former en présentant les domaines qui nous intéresse. Pour cela nous avons le <B>menu du sous formulaire<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> ou l'option <B>Configurer la Liste<IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/></B> qui nous présente dans le côté droit latéral du listing tous les domaines présentables par ce dernier, options de pagination et la consultation de base de données qui produit les propos que vous énumérez</P>
+<P><B>Note :</B>Il peut y avoir des options cachées qui sont activées en cliquant le bouton droit de la souris dans certaines zones. Ces options peuvent être vues de manière permanente comme une barre d'outils par l'action <B>Afficher Menu Sous Formulaire <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/>Rappelez vous que le bouton droit de la souris peut être votre meilleur allié dans la recherche de certaines actions.</B></P>
+<P>En créant une nouvelle facture les données nécessaires à remplir sont : le client et le magasin. Le reste des données peut être laisser en blanc pour être postérieurement remplis. Les domaines qui apparaissent sur l'écran peuvent varier selon la configuration des plugins que nous avons et qui nécessitent des informations additionnelles dans les factures, cette information peut être obligatoire ou non suivant le plugin en question</P>
+<P>Une fois remplies les données nous pouvons garder la facture ou cliquer le bouton Accepter pour stocker les changements</P>
+<P>Toutes les factures ont un service d'impression par défaut appelé <B>factura.rml</B>qui définit la manière dans laquelle il imprime la facture en pressant sur le bouton imprimer. Peuvent en outre exister des rapports additionnels qui apparaissent en pressant avec le bouton droit de la souris dans tout espace vide de l'écran la facture ainsi que les actions occultes non accessibles d'une autre manière</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_cliente.so
+
+Incompatibles:
+
+Reports: factura_alternativa1.rml; factura.rml; blform_FacturaView.qs; inf_detalleventasarticulo.pys; inf_resumcompras.pys; inf_familiacliente.pys
+
+Categorias: Facturation generique;
+
+Orden: 623
+
+Comentarios:

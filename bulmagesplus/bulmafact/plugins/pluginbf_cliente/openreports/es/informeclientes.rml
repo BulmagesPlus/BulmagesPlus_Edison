@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE document SYSTEM "rml_1_0.dtd">
+<document>
+<template pageSize="(21cm, 29.7cm)" leftMargin="0cm" rightMargin="0cm" topMargin="1.0cm" bottomMargin="2.0cm" title="Informe de clientes" author="Tomeu Borras" allowSplitting="20">
+	<pageTemplate id="main">
+		<pageGraphics>
+		<!-- EL LOGO DE CABECERA -->
+		<image x="3cm" y="26cm" width="17cm" file="logo.jpg"/>
+
+		<!-- EL PIE DE PAGINA -->
+		<setFont name="Helvetica" size="8"/>		
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<drawString x="7.3cm" y="1.2cm">www.iglues.org -- info@iglues.org --</drawString>
+
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<setFont name="Helvetica" size="14"/>
+		<drawString x="1.5cm" y="24.5cm">INFORME DE CLIENTES</drawString>
+
+		<!-- FRAME DE CONTENIDOS -->
+		<frame id="column" x1="1cm" y1="2cm" width="19cm" height="22cm"/>
+		</pageGraphics>
+	</pageTemplate>	
+</template>
+<stylesheet>
+	<blockTableStyle id="cabecera">	
+		<blockAlignment value="CENTER" start="0,0" stop="-1,-1"/>
+		<blockTextColor colorName="(0,0,0)" start="0,0" stop="-1,0"/>	
+		<blockBackground colorName="(0.7,0.7,0.7)" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica-Bold" size="12" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica" size="12" start="0,-1" stop="-1,-1"/>
+		<lineStyle kind="INNERGRID" colorName="(0.5,0.5,0.5)"  start="0,0" stop="-1,-1"/>
+		<lineStyle kind="OUTLINE" colorName="black"  start="0,0" stop="-1,-1"/>	
+	</blockTableStyle>
+	<blockTableStyle id="tablatotales">	
+		<blockAlignment value="RIGHT" start="0,0" stop="-1,-1"/>
+		<blockTextColor colorName="(0,0,0)" start="0,0" stop="-1,0"/>	
+		<blockBackground colorName="(0.7,0.7,0.7)" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica-Bold" size="12" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica" size="12" start="0,1" stop="-1,-1"/>
+		<lineStyle kind="INNERGRID" colorName="(0.5,0.5,0.5)"  start="0,0" stop="-1,-1"/>
+		<lineStyle kind="OUTLINE" colorName="black"  start="0,0" stop="-1,-1"/>	
+	</blockTableStyle>	
+	<blockTableStyle id="tablaresumen">	
+		<blockAlignment value="RIGHT" start="0,0" stop="-1,-1"/>
+		<blockAlignment value="LEFT" start="0,1" stop="0,-1"/>
+		<blockTextColor colorName="(0,0,0)" start="0,0" stop="-1,0"/>	
+		<blockBackground colorName="(0.7,0.7,0.7)" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica-Bold" size="12" start="0,0" stop="-1,0"/>
+		<blockFont name="Helvetica" size="8" start="0,1" stop="-1,-1"/>
+		<lineStyle kind="INNERGRID" colorName="(0.5,0.5,0.5)"  start="0,0" stop="-1,-1"/>
+		<lineStyle kind="OUTLINE" colorName="black"  start="0,0" stop="-1,-1"/>	
+	</blockTableStyle>			
+</stylesheet>
+
+<story>
+[story]
+</story>
+</document>

@@ -1,0 +1,99 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
+#Uso: 
+
+###########################################################################
+#   Copyright (C) 2008 by Arturo Martin Llado                             #
+#   amartin@conetxia.com                                                  #
+#                                                                         #
+#   This program is free software; you can redistribute it and/or modify  #
+#   it under the terms of the GNU General Public License as published by  #
+#   the Free Software Foundation; either version 2 of the License, or     #
+#   (at your option) any later version.                                   #
+#                                                                         #
+#   This program is distributed in the hope that it will be useful,       #
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of        #
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
+#   GNU General Public License for more details.                          #
+#                                                                         #
+#   You should have received a copy of the GNU General Public License     #
+#   along with this program; if not, write to the                         #
+#   Free Software Foundation, Inc.,                                       #
+#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             #
+###########################################################################
+
+# pathtitle="&Ventas\Informes\Ventas por familia"
+# title="Ventas por familia"
+
+
+
+import psycopg2
+import psycopg2.extras
+import ooolib
+import os
+import sys
+
+#if (len(sys.argv) < 3):
+#        print 'Uso: python <nombre_script> <nombre_bd> <usuario_bd>'
+#        sys.exit()
+
+try:
+#        conn = psycopg2.connect("dbname='" + sys.argv[1] + "' user='" + sys.argv[2] + "'")
+	 conn = psycopg2.connect("dbname='[CONF_DBNAME]' user='[CONF_DBUSER]'")
+except:
+        sys.exit("I am unable to connect to the database")
+
+cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+
+cur.execute('SELECT * FROM familia ORDER BY codigocompletofamilia')
+familias = cur.fetchall()
+
+doc = ooolib.Calc('Ventas por familia (detallado en clientes)')
+doc.set_cell_property('bold', True)
+doc.set_cell_property('fontsize', '17')
+doc.set_row_property(1, 'height', '0.4in')
+doc.set_cell_value(1, 1, 'string', 'VENTAS POR FAMILIA (DETALLADO EN CLIENTES)')
+doc.set_cell_property('bold', False)
+doc.set_cell_property('fontsize', '11')
+
+i = 3
+
+# La columna del cliente, le damos mayor ancho
+doc.set_column_property(2, 'width', '5in')
+
+for familia in familias:
+        
+        doc.set_cell_property('bold', True)
+        doc.set_cell_property('fontsize', '15')
+        doc.set_row_property(i, 'height', '0.3in')
+        doc.set_cell_value(1, i, 'string', familia['codigocompletofamilia'] + ' ' + familia['nombrefamilia'])
+        doc.set_cell_property('bold', False)
+        doc.set_cell_property('fontsize', '11')
+        i += 1
+        
+        # Seleccionamos los clientes que han comprado articulos de la familia correspondiente
+        cur.execute('SELECT DISTINCT cliente.nomcliente, cliente.idcliente FROM cliente, factura, lfactura, articulo WHERE cliente.idcliente = factura.idcliente AND factura.idfactura = lfactura.idfactura AND lfactura.idarticulo = articulo.idarticulo AND articulo.idfamilia = ' + str(familia['idfamilia']))
+        clientes = cur.fetchall()
+        
+        for cliente in clientes:
+                                
+                cur.execute('SELECT SUM(lfactura.pvplfactura) AS total FROM factura, lfactura, articulo, familia WHERE factura.idcliente = ' + str(cliente['idcliente']) + ' AND factura.idfactura = lfactura.idfactura AND lfactura.idarticulo = articulo.idarticulo AND articulo.idfamilia = familia.idfamilia AND familia.idfamilia = ' + str(familia['idfamilia']))
+                venta = cur.fetchone()
+                
+                doc.set_cell_value(2, i, 'string', cliente['nomcliente'])
+                
+                doc.set_cell_property('halign', 'right')
+                doc.set_cell_value(3, i, 'string', venta['total'])
+                doc.set_cell_property('halign', 'left')
+                        
+                i += 1
+                        
+i += 2
+
+# Guardamos el documento
+#doc.save("/tmp/inf_familiacliente.ods")
+doc.save("inf_familiacliente.ods")
+#os.system('oocalc /tmp/inf_familiacliente.ods')
+
+conn.close()

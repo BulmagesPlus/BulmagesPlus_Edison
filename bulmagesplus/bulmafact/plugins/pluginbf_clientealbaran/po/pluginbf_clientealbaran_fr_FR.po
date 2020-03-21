@@ -1,0 +1,498 @@
+# Header entry was created by Lokalize.
+#
+# aishen <aishen@free.fr>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: info@iglues.org\n"
+"POT-Creation-Date: 2011-08-16 13:15+0200\n"
+"PO-Revision-Date: 2011-02-24 15:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Language: fr_FR\n"
+"X-Source-Language: C\n"
+
+#: bfclientealbarandescuentosubform.cpp:43 bfclientealbaransubform.cpp:56
+msgid "% Descuento"
+msgstr "% Remise"
+
+#: bfclientealbaransubform.cpp:55
+msgid "% Recargo E.Q."
+msgstr "% Recharge E.Q."
+
+#: ui_albaranclientebase.h:798
+msgid "&Aceptar"
+msgstr "&Accepter"
+
+#: pluginbf_clientealbaran.cpp:60
+msgid "&Albaranes a clientes"
+msgstr "Bulletin de livr&aison"
+
+#: ui_albaranclientebase.h:799
+msgid "&Cancelar"
+msgstr "&Annuler"
+
+#: ui_albaranclientebase.h:781
+msgid "&Detalle"
+msgstr "&Détail"
+
+#: genalbqtoolbutton.cpp:158 genalbqtoolbutton.cpp:290
+msgid "&No"
+msgstr "&Non"
+
+#: pluginbf_clientealbaran.cpp:68
+msgid "&Nuevo albaran a cliente"
+msgstr "&Nouveau bulletin de livraison"
+
+#: genalbqtoolbutton.cpp:158 genalbqtoolbutton.cpp:290
+msgid "&Si"
+msgstr "&Oui"
+
+#: pluginbf_clientealbaran.cpp:55
+msgid "&Ventas"
+msgstr ""
+
+#: ui_albaranclientebase.h:792 ui_albaranclientebase.h:793
+#: ui_albaranclientebase.h:794 ui_albaranclientebase.h:795
+#: ui_albaranclientebase.h:796 ui_albaranclientebase.h:797
+msgid "0.00"
+msgstr "0.00"
+
+#: pluginbf_clientealbaran.cpp:284
+#, fuzzy
+msgid "ALBARAN: Num "
+msgstr ""
+"#-#-#-#-#  pluginbf_clientefactura_fr_FR.po  #-#-#-#-#\n"
+"ALBARAN: Num \n"
+"#-#-#-#-#  pluginbf_clientealbaranesfactura_fr_FR.po  #-#-#-#-#\n"
+"BULLETIN : Num"
+
+#: ui_albaranclientelistbase.h:504 ui_albaranclientelistbase.h:507
+msgid "Actualizar listado"
+msgstr "Actualiser la liste"
+
+#: albaranclienteview.cpp:69
+msgid "Albaran"
+msgstr "Id bulletin"
+
+#: genalbqtoolbutton.cpp:156
+msgid "Albaran ya existe"
+msgstr "Le bulletin existe déjà"
+
+#: pluginbf_clientealbaran.cpp:62 pluginbf_clientealbaran.cpp:63
+#: albaranclientelist.cpp:347 ui_albaranclientelistbase.h:448
+msgid "Albaranes a clientes"
+msgstr "Bulletin de livraison"
+
+#: albaranclientelist.cpp:209
+msgid "Albaranes no procesados"
+msgstr "Bulletins de livraison non traités"
+
+#: albaranclientelist.cpp:208
+msgid "Albaranes procesados"
+msgstr "Bulletins de livraison traités"
+
+#: albaranclienteview.cpp:74
+msgid "Almacen"
+msgstr "Magasin"
+
+#: ui_albaranclientebase.h:780
+msgid "Almacen:"
+msgstr "Magasin :"
+
+#: albaranclientelist.cpp:431
+msgid "Base imponible"
+msgstr "Base Imposable"
+
+#: ui_albaranclientebase.h:787
+msgid "Base imponible:"
+msgstr "Base Imposable :"
+
+#: ui_albaranclientelistbase.h:472 ui_albaranclientelistbase.h:475
+#: ui_albaranclientebase.h:744 ui_albaranclientebase.h:747
+msgid "Borrar albaran"
+msgstr "Effacer le bulletin"
+
+#: ui_albaranclientelistbase.h:511
+msgid "Buscar:"
+msgstr "Chercher :"
+
+#: bfclientealbaransubform.cpp:50
+msgid "Cantidad"
+msgstr "Quantité"
+
+#: albaranclienteview.cpp:73
+msgid "Cliente"
+msgstr "Client"
+
+#: albaranclienteview.cpp:105 albaranclientelist.cpp:165
+msgid "Cliente:"
+msgstr "Client :"
+
+#: bfclientealbaransubform.cpp:46
+msgid "Codigo completo articulo"
+msgstr "Code complet article"
+
+#: albaranclientelist.cpp:419
+msgid "Codigo de almacen"
+msgstr "Code magasin"
+
+#: albaranclienteview.cpp:79
+msgid "Comentario"
+msgstr "Libellé"
+
+#: albaranclienteview.cpp:80
+msgid "Comentario privado"
+msgstr "Commentaire privé"
+
+#: ui_albaranclientebase.h:785
+msgid "Comentario&s"
+msgstr "Libellé&s"
+
+#: albaranclientelist.cpp:429
+msgid "Comentarios del albaran"
+msgstr "Libellés du bulletin"
+
+#: ui_albaranclientebase.h:784
+msgid "Comentarios privados:"
+msgstr "Commentaires privés :"
+
+#: ui_albaranclientebase.h:783
+msgid "Comentarios publicos:"
+msgstr "Commentaires publics :"
+
+#: bfclientealbarandescuentosubform.cpp:42
+msgid "Concepto descuento"
+msgstr "Raison de la remise"
+
+#: ui_albaranclientelistbase.h:496 ui_albaranclientelistbase.h:499
+msgid "Configurar listado"
+msgstr "Configurer la liste"
+
+#: ui_albaranclientelistbase.h:502
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: ui_albaranclientelistbase.h:478
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: ui_albaranclientelistbase.h:470
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+#: ui_albaranclientelistbase.h:494
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: ui_albaranclientelistbase.h:462
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: ui_albaranclientelistbase.h:486
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: albaranclientelist.cpp:322
+msgid "Debe seleccionar una linea"
+msgstr "Vous devez sélectionner une ligne"
+
+#: albaranclienteview.cpp:84 albaranclientelist.cpp:421
+#: bfclientealbaransubform.cpp:49
+msgid "Descripcion"
+msgstr "Description "
+
+#: albaranclientelist.cpp:425
+msgid "Descripcion de forma de pago"
+msgstr "Forme de paiement "
+
+#: ui_albaranclientebase.h:772
+msgid "Descripcion:"
+msgstr "Descripción :"
+
+#: ui_albaranclientebase.h:782
+msgid "Descuen&tos"
+msgstr "Remises"
+
+#: ui_albaranclientebase.h:786
+msgid "Descuentos:"
+msgstr "Remises :"
+
+#: ui_albaranclientelistbase.h:464 ui_albaranclientelistbase.h:467
+msgid "Editar albaran"
+msgstr "Id bulletin"
+
+#: albaranclientelist.cpp:336
+msgid "Error al borrar el albaran a cliente"
+msgstr "Erreur d'effacement d'un bulletin"
+
+#: albaranclienteview.cpp:120
+msgid "Error al crear el albaran a cliente"
+msgstr "Erreur dans la création du bulletin"
+
+#: genalbqtoolbutton.cpp:227 genalbqtoolbutton.cpp:359
+#: albaranclienteview.cpp:239
+msgid "Error inesperado"
+msgstr "Erreur inattendue"
+
+#: genalbqtoolbutton.cpp:157
+msgid ""
+"Existe un albaran a este cliente con la misma referencia que este pedido. "
+"Desea abrirlo para verificar?"
+msgstr ""
+"Il existe un bulletin de livraison pour ce client avec la même référence que "
+"cette commande. Souhaitez l'ouvrir pour vérifier ?"
+
+#: genalbqtoolbutton.cpp:289
+msgid ""
+"Existe una albaran a este cliente con la misma referencia que este pedido. "
+"Desea abrirlo para verificar?"
+msgstr ""
+"Il existe un bulletin de livraison pour ce client avec la même référence que "
+"cette commande. Souhaitez l'ouvrir pour vérifier ?"
+
+#: ui_albaranclientelistbase.h:510
+msgid "F5"
+msgstr "F5"
+
+#: genalbqtoolbutton.cpp:288
+msgid "Factura ya existe"
+msgstr "La facture existe déjà "
+
+#: albaranclientelist.cpp:422
+msgid "Fecha de albaran"
+msgstr "Date du bulletin"
+
+#: albaranclienteview.cpp:76
+msgid "Fecha de creacion"
+msgstr "Date de création"
+
+#: ui_albaranclientebase.h:776
+msgid "Fecha de creacion:"
+msgstr "Date de création :"
+
+#: ui_albaranclientelistbase.h:451
+msgid "Fecha final:"
+msgstr "Date finale :"
+
+#: ui_albaranclientelistbase.h:450
+msgid "Fecha inicial:"
+msgstr "Date initiale :"
+
+#: pluginbf_clientealbaran.cpp:284
+msgid "Fecha:"
+msgstr "Date:"
+
+#: ui_albaranclientelistbase.h:488 ui_albaranclientelistbase.h:491
+msgid "Filtrar albaranes"
+msgstr "Filtrer les bulletins"
+
+#: albaranclienteview.cpp:81
+msgid "Forma de pago"
+msgstr "Forme de paiement"
+
+#: ui_albaranclientebase.h:778
+msgid "Forma de pago:"
+msgstr "Forme de paiement :"
+
+#: ui_albaranclientebase.h:737 ui_albaranclientebase.h:740
+msgid "Guardar albaran"
+msgstr "Sauvegarder le bulletin"
+
+#: ui_albaranclientebase.h:788
+msgid "I.R.P.F.:"
+msgstr "I.R.P.F.:"
+
+#: bfclientealbaransubform.cpp:54
+msgid "I.V.A."
+msgstr "T.V.A."
+
+#: albaranclientelist.cpp:428
+msgid "ID albaran"
+msgstr "Id bulletin"
+
+#: albaranclientelist.cpp:430
+msgid "ID almacen"
+msgstr "ID du magasin"
+
+#: albaranclientelist.cpp:427
+msgid "ID cliente"
+msgstr "Id client"
+
+#: albaranclientelist.cpp:424
+msgid "ID forma de pago"
+msgstr "Id Forme de paiement"
+
+#: albaranclientelist.cpp:426
+msgid "ID trabajador"
+msgstr "Id salarié"
+
+#: albaranclienteview.cpp:72 bfclientealbarandescuentosubform.cpp:44
+#: bfclientealbaransubform.cpp:57
+msgid "Id albaran"
+msgstr "Id bulletin"
+
+#: bfclientealbaransubform.cpp:45
+msgid "Id articulo"
+msgstr "Id article"
+
+#: bfclientealbarandescuentosubform.cpp:41
+msgid "Id descuento"
+msgstr "Id remise"
+
+#: ui_albaranclientebase.h:751 ui_albaranclientebase.h:754
+msgid "Imprimir albaran"
+msgstr "Imprimer bulletin"
+
+#: ui_albaranclientelistbase.h:480 ui_albaranclientelistbase.h:483
+msgid "Imprimir listado"
+msgstr "Imprimer la liste"
+
+#: albaranclientelist.cpp:432
+msgid "Impuestos"
+msgstr "Impôts"
+
+#: ui_albaranclientebase.h:789
+msgid "Impuestos:"
+msgstr "Impôts :"
+
+#: ui_albaranclientebase.h:758 ui_albaranclientebase.h:761
+msgid "Mostrar/ocultar cabecera"
+msgstr "Montrer/cacher l'entête"
+
+#: ui_albaranclientelistbase.h:449
+msgid "Mostrar:"
+msgstr "Afficher :"
+
+#: albaranclienteview.cpp:233
+msgid "No hay pedidos con esta referencia."
+msgstr ""
+
+#: albaranclienteview.cpp:232
+msgid "No hay pedidos con la misma referencia."
+msgstr "Il n'y a rien avec la même référence."
+
+#: bfclientealbaransubform.cpp:48
+msgid "No linea"
+msgstr "N° de ligne"
+
+#: bfclientealbaransubform.cpp:47
+msgid "Nombre articulo"
+msgstr "Nom article"
+
+#: albaranclientelist.cpp:423
+msgid "Nombre de cliente"
+msgstr "Nom du client"
+
+#: ui_albaranclientelistbase.h:456 ui_albaranclientelistbase.h:459
+msgid "Nuevo albaran"
+msgstr "Nouveau bulletin"
+
+#: pluginbf_clientealbaran.cpp:70 pluginbf_clientealbaran.cpp:71
+#: ui_albaranclientebase.h:735
+msgid "Nuevo albaran a cliente"
+msgstr "Nouveau bulletin de livraison"
+
+#: albaranclienteview.cpp:75 albaranclientelist.cpp:420
+msgid "Numero de albaran"
+msgstr "Numéro du bulletin"
+
+#: ui_albaranclientebase.h:773
+msgid "Número:"
+msgstr "Numéro :"
+
+#: bfclientealbaransubform.cpp:58
+msgid "Orden"
+msgstr "Ordre"
+
+#: bfclientealbaransubform.cpp:51
+msgid "P.V.P."
+msgstr "P.V.P."
+
+#: albaranclienteview.cpp:77
+msgid "Persona de contacto"
+msgstr "Contact"
+
+#: ui_albaranclientebase.h:777
+msgid "Persona de contacto:"
+msgstr "Contact :"
+
+#: albaranclienteview.cpp:83 ui_albaranclientebase.h:774
+msgid "Procesado"
+msgstr "Accusé"
+
+#: ui_albaranclientebase.h:790
+msgid "R.E.:"
+msgstr "R.E.:"
+
+#: pluginbf_clientealbaran.cpp:284
+#, fuzzy
+msgid "Ref:"
+msgstr ""
+"#-#-#-#-#  pluginbf_clientefactura_fr_FR.po  #-#-#-#-#\n"
+"Réf. :\n"
+"#-#-#-#-#  pluginbf_clientealbaranesfactura_fr_FR.po  #-#-#-#-#\n"
+"Ref. :"
+
+#: albaranclienteview.cpp:85
+msgid "Referencia"
+msgstr "Référence"
+
+#: albaranclientelist.cpp:418
+msgid "Referencia de albaran"
+msgstr "Référence du bulletin"
+
+#: ui_albaranclientebase.h:771
+msgid "Referencia:"
+msgstr "Référence :"
+
+#: albaranclienteview.cpp:78
+msgid "Telefono de contacto"
+msgstr "Téléphone du contact"
+
+#: ui_albaranclientebase.h:779
+msgid "Telefono de contacto:"
+msgstr "Téléphone du contact :"
+
+#: genalbqtoolbutton.cpp:141 genalbqtoolbutton.cpp:273
+#: albaranclienteview.cpp:205
+msgid "Tiene que seleccionar un cliente"
+msgstr "Vous devez d'abord sélectionner un client"
+
+#: albaranclientelist.cpp:207
+msgid "Todos los albaranes"
+msgstr "Tous les bulletins"
+
+#: albaranclientelist.cpp:433
+msgid "Total"
+msgstr "Total"
+
+#: bfclientealbaransubform.cpp:53
+msgid "Total Linea"
+msgstr "Total de la ligne"
+
+#: ui_albaranclientebase.h:791
+msgid "Total:"
+msgstr "Total :"
+
+#: ui_albaranclientelistbase.h:453
+msgid "Total: "
+msgstr "Total : "
+
+#: albaranclienteview.cpp:82 ui_albaranclientelistbase.h:452
+msgid "Trabajador"
+msgstr "Salarié"
+
+#: ui_albaranclientebase.h:775
+msgid "Trabajador:"
+msgstr "Salarié :"
+
+#: ui_albaranclientebase.h:765 ui_albaranclientebase.h:768
+msgid "Ver pedidos con la misma referencia"
+msgstr "Afficher ceux de même référence"

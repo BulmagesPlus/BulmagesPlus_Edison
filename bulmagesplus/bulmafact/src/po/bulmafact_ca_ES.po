@@ -1,0 +1,559 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Fco. Javier M. C. <fcojavmc@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: info@iglues.org\n"
+"POT-Creation-Date: 2012-01-14 08:21+0100\n"
+"PO-Revision-Date: 2012-01-14 09:27+0100\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"Language-Team:  Catalan\n"
+"Language: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: bfproveedoralbaransubform.cpp:57
+msgid "% Descuento"
+msgstr "% Descompte"
+
+#: bfproveedoralbaransubform.cpp:55
+msgid "% I.V.A."
+msgstr "% I.V.A."
+
+#: bfproveedoralbaransubform.cpp:56
+msgid "% R.E."
+msgstr "% R.E."
+
+#: ui_bfseriefacturabase.h:85 ui_bfconfiguracionbase.h:306
+msgid "&Aceptar"
+msgstr "&Accepta"
+
+#: ui_bfaboutbase.h:308
+msgid "&Acerca de"
+msgstr "&Quant a"
+
+#: ui_bfbulmafactbase.h:180
+msgid "&Acerca de Iglues/BulmaFact"
+msgstr "&Quant a Iglues/BulmaFact"
+
+#: ui_bfseriefacturabase.h:86 ui_bfconfiguracionbase.h:307
+msgid "&Cancelar"
+msgstr "&Cancel·la"
+
+#: ui_bfaboutbase.h:318
+msgid "&Cerrar"
+msgstr "Tan&ca"
+
+#: ui_bfbulmafactbase.h:174
+msgid "&Datos de la empresa..."
+msgstr "&Dades de l'entitat..."
+
+#: ui_bfbulmafactbase.h:181
+msgid "&Documentacion"
+msgstr "&Documentació"
+
+#: ui_bfbulmafactbase.h:183
+msgid "&Indexador"
+msgstr "&Indexador"
+
+#: ui_bfbulmafactbase.h:172
+msgid "&Salir del programa"
+msgstr "&Surt del programa"
+
+#: ui_bfaboutbase.h:309
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p></body></html>"
+msgstr ""
+
+#: ui_bfaboutbase.h:303
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:600; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Facturacion GPL - Version "
+"0.13.0 -</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:600; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Facturació GPL - Versió "
+"0.13.0 -</p></body></html>"
+
+#: ui_bfaboutbase.h:314
+msgid "A&utores"
+msgstr "A&utors"
+
+#: ui_bfbulmafactbase.h:197
+msgid "A&yuda"
+msgstr "A&juda"
+
+#: ui_bfbuscarreferenciabase.h:94
+msgid "Abre todos los documentos con esta referencia"
+msgstr "Obre tots els documents amb aquesta referència"
+
+#: ui_bfaboutbase.h:301
+msgid "Acerca de Iglues/BulmaFact"
+msgstr "Quant a Iglues/BulmaFact"
+
+#: ui_bfaboutbase.h:316
+msgid "Acuerdo de &licencia"
+msgstr "Acord de &llicència"
+
+#: bfinformereferencia.cpp:130 bfinformereferencia.cpp:163
+msgid "Articulo"
+msgstr "Article"
+
+#: bfbuscararticulo.cpp:37
+msgid "Articulo:"
+msgstr "Article:"
+
+#: ui_bfbulmafactbase.h:233
+msgid "Avanzados"
+msgstr "Avançats"
+
+#: bfform.cpp:500
+msgid "Base Imponible"
+msgstr "Base Imponible"
+
+#: ui_bfconfiguracionbase.h:310
+msgid "C.I.F.:"
+msgstr "C.I.F."
+
+#: ui_bfconfiguracionbase.h:312
+msgid "C.P.:"
+msgstr "C.P.:"
+
+#: bfproveedoralbaransubform.cpp:52
+msgid "Cantidad"
+msgstr "Quantitat"
+
+#: main.cxx:165
+msgid "Cargando plugins"
+msgstr "Carregant plugins"
+
+#: bfinformereferencia.cpp:205
+msgid "Cobrado"
+msgstr "Cobrat"
+
+#: bfproveedoralbaransubform.cpp:48
+msgid "Codigo completo articulo"
+msgstr "Codi complet article"
+
+#: bfseriefacturaview.cpp:80
+msgid "Codigo serie factura"
+msgstr "Codi sèrie factura"
+
+#: bfsubform.cpp:628
+#, qt-format
+msgid "Columna: '%1', fila: '%2'."
+msgstr ""
+
+#: bfaboutview.cpp:44
+msgid "Compilado usando la version de QT:"
+msgstr "Compilat fent servir la versió de QT:"
+
+#: bfconfiguracionview.cpp:52
+msgid "Configuracion"
+msgstr "Configuració"
+
+#: ui_bfconfiguracionbase.h:321
+msgid "Configuracion avanzada"
+msgstr "Configuració avançada"
+
+#: ui_bfconfiguracionbase.h:320
+msgid "Configuracion basica"
+msgstr "Configuració bàsica"
+
+#: ui_bfbulmafactbase.h:188
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+#: ui_bfbulmafactbase.h:173
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: ui_bfconfiguracionbase.h:305
+msgid "Datos de la empresa"
+msgstr "Dades de l'entitat"
+
+#: bfproveedoralbaransubform.cpp:51
+msgid "Descripcion"
+msgstr "Descripció"
+
+#: bfseriefacturaview.cpp:81
+msgid "Descripcion serie factura"
+msgstr "Descripció sèrie factura"
+
+#: bfform.cpp:458
+msgid "Descuento"
+msgstr "Descompte"
+
+#: ui_bfconfiguracionbase.h:311
+msgid "Direccion:"
+msgstr "Adreça:"
+
+#: ui_bfbulmafactbase.h:198
+msgid "E&mpresa"
+msgstr "E&ntitat"
+
+#: ui_bfconfiguracionbase.h:318
+msgid "E-Mail:"
+msgstr "E-Mail"
+
+#: bfsubform.cpp:214
+msgid ""
+"El codigo del articulo no existe.\n"
+"ATENCION: No se guadara bien el documento hasta que sea valido."
+msgstr ""
+"El codi de l'article no existeix.\n"
+"ATENCIÓ: No es desarà bé el document fins que no sigui vàlid."
+
+#: bfinformereferencia.cpp:133 bfinformereferencia.cpp:165
+#: bfinformereferencia.cpp:203 bfinformereferencia.cpp:250
+msgid "Entregado"
+msgstr "Lliurat"
+
+#: bfbuscaralmacen.cpp:103 bfbuscaralmacen.cpp:104
+msgid "Error al establecer el almacen."
+msgstr "Error en establir el magatzem."
+
+#: main.cxx:194
+msgid "Error inesperado en BulmaFact. El programa se cerrara."
+msgstr "Error inesperat en BulmaFact. El programa es tancarà."
+
+#: bfform.cpp:1043
+msgid "Error inesperado en la impresion"
+msgstr "Error inesperat en la impressió"
+
+#: bfbuscararticulo.cpp:228
+msgid "Este item es un articulo encontrado, no entrado por el usuario."
+msgstr "Aquest ítem és un article trobat, no entrat per l'usuari."
+
+#: ui_bfbulmafactbase.h:182
+msgid "F1"
+msgstr "F1"
+
+#: ui_bfbulmafactbase.h:179
+msgid "F11"
+msgstr "F11"
+
+#: bfcompany.cpp:99
+msgid "Facturacion GPL"
+msgstr "Facturació GPL"
+
+#: bfinformereferencia.cpp:134 bfinformereferencia.cpp:166
+#: bfinformereferencia.cpp:204 bfinformereferencia.cpp:251
+msgid "Facturado"
+msgstr "Facturat"
+
+#: bfbuscarfamilia.cpp:36
+msgid "Familia:"
+msgstr "Família:"
+
+#: ui_bfconfiguracionbase.h:317
+msgid "Fax:"
+msgstr "Fax:"
+
+#: ui_bfbulmafactbase.h:217 ui_bfbulmafactbase.h:219 ui_bfbulmafactbase.h:222
+#: ui_bfbulmafactbase.h:225 ui_bfbulmafactbase.h:228 ui_bfbulmafactbase.h:231
+msgid "Fichas"
+msgstr "Fitxes"
+
+#: ui_bfbuscarreferenciabase.h:89
+msgid "Form1"
+msgstr "Form1"
+
+#: bfform.cpp:547
+msgid "I.R.P.F."
+msgstr "I.R.P.F."
+
+#: bfform.cpp:518
+msgid "I.V.A."
+msgstr "I.V.A."
+
+#: bfproveedoralbaransubform.cpp:58
+msgid "Id albaran"
+msgstr "Id albarà"
+
+#: bfproveedoralbaransubform.cpp:47
+msgid "Id articulo"
+msgstr "Id article"
+
+#: bfaboutview.cpp:420
+msgid "Idioma:"
+msgstr "Llengua:"
+
+#: bfaboutview.cpp:418
+msgid "Idiomas y traducciones:"
+msgstr "Llengües i traduccions:"
+
+#: ui_bfbulmafactbase.h:171
+msgid "Iglues/BulmaFact - Facturacion GPL"
+msgstr "Iglues/BulmaFact - Facturació GPL"
+
+#: ui_bfbulmafactbase.h:184 ui_bfbulmafactbase.h:186
+msgid "Indexador"
+msgstr "Indexador"
+
+#: ui_bfaboutbase.h:317
+msgid "Informacion del &sistema"
+msgstr "Informació del &sistema"
+
+#: bfbuscarreferencia.cpp:69
+msgid "Informe"
+msgstr "Informe"
+
+#: ui_bfbuscarreferenciabase.h:91
+msgid "Informe por referencia"
+msgstr "Informe per referència"
+
+#: main.cxx:177
+msgid "Inicializando componentes"
+msgstr "Inicialitzant components"
+
+#: main.cxx:105
+msgid "Iniciando clases"
+msgstr "Inicialitzant classes"
+
+#: bfbuscararticulo.cpp:226
+#, qt-format
+msgid "Item: '%1', num: '%2', itemText: '%3', itemData: '%4'."
+msgstr "Ítem: '%1', núm: '%2', itemText: '%3', itemData: '%4'."
+
+#: main.cxx:171
+msgid "Lanzando plugins"
+msgstr "Llençant plugins"
+
+#: main.cxx:134
+msgid "Leyendo configuracion"
+msgstr "Llegint configuració"
+
+#: ui_bfbulmafactbase.h:201 ui_bfbulmafactbase.h:203 ui_bfbulmafactbase.h:206
+#: ui_bfbulmafactbase.h:209 ui_bfbulmafactbase.h:212 ui_bfbulmafactbase.h:215
+msgid "Listados"
+msgstr "Llistats"
+
+#: ui_bfbulmafactbase.h:199
+msgid "Maest&ro"
+msgstr "Mest&re"
+
+#: ui_bfbulmafactbase.h:196
+msgid "Modo experto"
+msgstr "Mode expert"
+
+#: ui_bfconfiguracionbase.h:313
+msgid "Municipio:"
+msgstr "Municipi"
+
+#: bfconfiguracionview.cpp:216
+msgid "Nombre"
+msgstr "Nom"
+
+#: bfproveedoralbaransubform.cpp:49
+msgid "Nombre articulo"
+msgstr "Nom article"
+
+#: ui_bfconfiguracionbase.h:309
+msgid "Nombre:"
+msgstr "Nom:"
+
+#: bfproveedoralbaransubform.cpp:50
+msgid "Numero de linea"
+msgstr "Número de línia"
+
+#: bfproveedoralbaransubform.cpp:59
+msgid "Orden"
+msgstr "Ordre"
+
+#: ui_bfbulmafactbase.h:190
+msgid "Ordenar &ventanas"
+msgstr "Ordena &finestres"
+
+#: ui_bfbulmafactbase.h:189
+msgid "Organizacio&n en cascada"
+msgstr "Organització en cascada"
+
+#: bfinformereferencia.cpp:252
+msgid "Pagado"
+msgstr "Pagat"
+
+#: ui_bfconfiguracionbase.h:315
+msgid "Pais:"
+msgstr "País:"
+
+#: ui_bfbulmafactbase.h:191 ui_bfbulmafactbase.h:192
+msgid "Paises / Provincias"
+msgstr "Països/Províncies"
+
+#: ui_bfbulmafactbase.h:194
+msgid "Paises y provincias"
+msgstr "Països i províncies"
+
+#: bfinformereferencia.cpp:132 bfinformereferencia.cpp:164
+#: bfinformereferencia.cpp:202 bfinformereferencia.cpp:249
+msgid "Pedido"
+msgstr "Comanda"
+
+#: bfaboutview.cpp:422
+msgid "Plugins:"
+msgstr "Plugins:"
+
+#: bfform.cpp:459
+msgid "Porcentaje"
+msgstr "Percentatge"
+
+#: bfproveedoralbaransubform.cpp:53
+msgid "Precio"
+msgstr "Preu"
+
+#: bfinformereferencia.cpp:131 bfinformereferencia.cpp:201
+msgid "Pres."
+msgstr "Pres."
+
+#: ui_bfbulmafactbase.h:176
+msgid "Propiedades de la empresa"
+msgstr "Dades bàsiques de l'entitat"
+
+#: ui_bfconfiguracionbase.h:314
+msgid "Provincia:"
+msgstr "Província:"
+
+#: bfform.cpp:538
+msgid "R.E."
+msgstr "R.E."
+
+#: bfbuscarreferencia.cpp:70
+msgid "Referencia"
+msgstr "Referència"
+
+#: bfbulmafact.cpp:194
+msgid "Se perderan los cambios no guardados"
+msgstr "Es perdran els canvis no desats"
+
+#: bfbulmafact.cpp:193
+msgid "Seguro que desea abandonar el programa "
+msgstr "Segur que desitgeu abandonar el programa"
+
+#: bfseriefacturaview.cpp:48
+msgid "Serie de Factura"
+msgstr "Sèrie de factura"
+
+#: ui_bfseriefacturabase.h:84
+msgid "Series de factura"
+msgstr "Sèries de factura"
+
+#: ui_bfaboutbase.h:315
+msgid "Sopor&te"
+msgstr "Supor&t"
+
+#: ui_bfconfiguracionbase.h:316
+msgid "Telefono:"
+msgstr "Telèfon:"
+
+#: main.cxx:183
+msgid "Terminado"
+msgstr "Terminat"
+
+#: bfform.cpp:1040
+msgid "Tiene que guardar el documento antes de poder procesarlo."
+msgstr "Heu de desar el document abans de poder processar-lo"
+
+#: bfbuscartipoarticulo.cpp:37
+msgid "Tipo Articulo:"
+msgstr "Tipus Article"
+
+#: bfform.cpp:551
+msgid "Total"
+msgstr "Total"
+
+#: bfform.cpp:460
+msgid "Total Desc."
+msgstr "Total Desc."
+
+#: bfproveedoralbaransubform.cpp:54
+msgid "Total Linea"
+msgstr "Total Línia"
+
+#: bfbuscararticulo.cpp:232
+#, qt-format
+msgid "Ultimo item: '%1', num: '%2', itemText: '%3', itemData: '%4'."
+msgstr "Últim ítem: '%1', núm: '%2', itemText: '%3', itemData: '%4'."
+
+#: bfconfiguracionview.cpp:217
+msgid "Valor"
+msgstr "Valor"
+
+#: ui_bfbulmafactbase.h:200
+msgid "Venta&na"
+msgstr "Fi&nestra"
+
+#: ui_bfbulmafactbase.h:178
+msgid "Ventana &completa"
+msgstr "Finestra &Completa"
+
+#: ui_bfconfiguracionbase.h:319
+msgid "Web:"
+msgstr "Web:"
+
+#~ msgid "&Propiedades de la empresa..."
+#~ msgstr "&Dades bàsiques de l'entitat..."
+
+#~ msgid "C.P."
+#~ msgstr "C.P."
+
+#~ msgid "CIF"
+#~ msgstr "C.I.F."
+
+#~ msgid "Configuracion Avanzada"
+#~ msgstr "Configuració avançada"
+
+#~ msgid "Configuracion Basica"
+#~ msgstr "Configuració bàsica"
+
+#~ msgid "Direccion"
+#~ msgstr "Adreça:"
+
+#~ msgid "E-Mail"
+#~ msgstr "e-mail"
+
+#~ msgid "Fax"
+#~ msgstr "Fax"
+
+#~ msgid "Modo Experto"
+#~ msgstr "Mode Expert"
+
+#~ msgid "Municipio"
+#~ msgstr "Municipi"
+
+#~ msgid "Pais"
+#~ msgstr "País"
+
+#~ msgid "Provincia"
+#~ msgstr "Provincia"
+
+#~ msgid "Telefono"
+#~ msgstr "Telèfon"
+
+#~ msgid "Web"
+#~ msgstr "Web"

@@ -1,0 +1,41 @@
+#######
+#Plugins
+#######
+#README.ca
+#20080501
+
+Nombre: Clients
+
+Biblioteca: libpluginbf_cliente.so
+
+Descripción: <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client.svg" WIDTH="100"/><BR>Gestió de clients</H1>
+<P> Permet realitzar la gestió de clients de l'empresa. Mostrant el llistat de clients i permetent
+fer altes, baixes i modificacins</P>
+<P> Aquest plugin és imprescindible per a tots aquells models de negoci on es treballi amb blients.</P>
+<P> També serveix com a base de molts altres plugins que estenen la capacitat d'aquest plugin.</P>
+<P> Un cop instal·lat el plugin tindrem dues noves opcions al menú <B>Llistat de clients</B> i <B>Nou Client</B></P>
+<H2> <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_list.svg" WIDTH="22"/>Llistat de Clients</H2>
+<P> Aquesta pantalla ens mostra els clientse donat d'alta a l'empresa. Des d'aquí podrem crear, modificar o esborrar els clients mitjançant els botons situats a la part superios de la finestra. A més podrem obtenir en forma de llistat les dades més importants dels nostres clients podent configurar la seva presentació per ser imprimits o exportats a altres formats.</P>
+<P> Des d'aquesta finestra a més podrem establir opcions de filtrat amb les quals podrem veure aquells clients que compleixin unes característiques determinades.</P>
+<H2> <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client.svg" WIDTH="22"/>Nuevo Cliente</H2>
+<P>Mitjançant aquesta opció podrem crear un nou cient. En iniciar aquesta acció apareixerà una nova finestra que ens presentarà tots els camps a omplir del client. És imprescindible posar el CIF del client perquè el client estigui ben creat. Un cop omplerts els camps podrem desar la fitxa o donar-li al botó acceptar per tenir les dades introduïdes al sistema. Si pel contrari pulsem sobre cancel·lar podrem tancar la finestra sense desar els canvis.</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias:
+
+Incompatibles:
+
+Orden: 300
+
+Reports: inf_clientes.rml; informecliente.rml; informeclientes.rml; pedidocliente.rml; blform_ClienteView.qs; inf_detalleventascliente.pys; inf_clientes.pys
+
+Categorias: Facturació genèrica;
+
+Comentarios:

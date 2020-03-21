@@ -1,0 +1,12 @@
+#PresupuestoClienteBase #subform2 {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/en_US/pluginbf_clientepresupuesto-new.png);
+}
+
+#ListLinPresupuestoView #mui_list {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/en_US/pluginbf_clientepresupuesto-new.png);
+}
+
+#PresupuestosListBase #mui_list {
+	background-image: url(@CMAKE_INSTALL_PREFIX@/share/bulmages/images/en_US/pluginbf_clientepresupuesto-list.png);
+}
+

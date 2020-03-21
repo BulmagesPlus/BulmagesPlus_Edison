@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE document SYSTEM "rml_1_0.dtd">
+<document>
+<template pageSize="(21cm, 29.7cm)" leftMargin="0cm" rightMargin="0cm" topMargin="1.0cm" bottomMargin="2.0cm" title="Factura Proforma" author="Tomeu Borras" allowSplitting="20">
+	<pageTemplate id="main">
+		<pageGraphics>
+		<include src="[CONF_DIR_OPENREPORTS]plantilla.rml"/>
+
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<setFont name="Helvetica" size="22"/>
+		<drawString x="1.5cm" y="24.5cm">FRA. PROFORMA</drawString>
+
+<!--IF QUERY="SELECT * FROM CLIENTE WHERE idcliente = [idcliente]"-->
+<!--QUERY="SELECT * FROM cliente WHERE idcliente=[idcliente]"-->
+		<!-- LOS DATOS DEL CLIENTE -->
+		<setFont name="Helvetica" size="12"/>
+		<drawString x="8.5cm" y="24cm">[nomcliente] -- [telcliente]</drawString>
+		<drawString x="8.5cm" y="23.5cm">[dircliente]</drawString>
+		<drawString x="8.5cm" y="23cm">[poblcliente]</drawString>
+
+		<setFont name="Helvetica" size="12"/>
+		<fill color="(0,0,0)"/>	
+		<stroke color="(0,0,0)"/>
+		<drawCentredString x="5.5cm" y="21.2cm">NIF</drawCentredString>
+		<drawCentredString x="8.5cm" y="21.2cm">Cliente</drawCentredString>
+		<drawCentredString x="11.5cm" y="21.2cm">Fecha</drawCentredString>
+		<drawCentredString x="14.5cm" y="21.2cm">N. Presup:</drawCentredString>
+		<drawCentredString x="17.5cm" y="21.2cm">Ref</drawCentredString>
+		<setFont name="Helvetica" size="12"/>
+		<drawCentredString x="5.5cm" y="20.4cm">[cifcliente]</drawCentredString>
+		<drawCentredString x="8.5cm" y="20.4cm">[idcliente]</drawCentredString>
+		<drawCentredString x="11.5cm" y="20.4cm">[fpresupuesto]</drawCentredString>
+		<drawCentredString x="14.5cm" y="20.4cm">[numpresupuesto]</drawCentredString>
+		<drawCentredString x="17.5cm" y="20.4cm">[refpresupuesto]</drawCentredString>
+		<drawCentredString x="5cm" y="2.5cm">Presupuesto valido hasta [vencpresupuesto]</drawCentredString>
+<!--END QUERY-->
+<!--END IF QUERY-->
+		</pageGraphics>
+		<!-- FRAME DE CONTENIDOS -->
+		<frame id="column" x1="1cm" y1="5cm" width="19cm" height="15cm"/>
+	</pageTemplate>
+
+</template>
+
+
+<include src="[CONF_DIR_OPENREPORTS]estilos.rml"/>
+
+<story>
+<blockTable style="tablacontenido" colWidths="1.75cm, 8.55cm, 1.2cm, 1.7cm, 1.8cm, 2.25cm" repeatRows="1">
+<tr>
+<td>Codigo</td>
+<td>Concepto</td>
+<td>Und</td>
+<td>Precio</td>
+<td>Dto</td>
+<td>Total</td>
+</tr>
+<!--LINEAS DETALLE-->
+<tr>
+<td>[codigocompletoarticulo]</td>
+<td><!-- EXISTS FILE="/var/bulmages/articles/[codigocompletoarticulo].jpg" --><image x="0.5cm" y="1.5cm" width="2cm" file="/var/bulmages/articles/[codigocompletoarticulo].jpg"/><!-- END EXISTS -->[desclpresupuesto]</td>
+<td>[cantlpresupuesto]</td>
+<td>[pvplpresupuesto]</td>
+<td>[descuentolpresupuesto]%</td>
+<td>[totallpresupuesto]</td>
+</tr>
+<!--END LINEAS DETALLE-->
+</blockTable>
+
+<blockTable colWidths="1.75cm, 8.55cm, 1.2cm, 1.7cm, 1.8cm, 2.25cm" repeatRows="1">
+<tr>
+<td></td>
+<td>[comentpresupuesto]</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</blockTable>
+
+
+
+<!--IF DESCUENTOS-->
+<storyPlace x="0cm" y="0cm" width="15cm" height="1cm">
+	<place x="4cm" y="3.5cm" width="15cm" height="2.5cm">
+<blockTable style="tabladescuento">
+<tr>
+<td> Descuento</td>
+<td> Porcentaje</td>
+<td> Total </td>
+</tr>
+<!--LINEAS DESCUENTO-->
+<tr>
+	<td>[conceptdpresupuesto]</td>
+	<td>[proporciondpresupuesto]%</td>
+	<td>[totaldescdpresupuesto]</td>
+</tr>
+<!--END LINEAS DESCUENTO-->
+</blockTable>
+</place>
+</storyPlace>
+<!--END IF DESCUENTOS-->
+
+<storyPlace x="2cm" y="0cm" width="19cm" height="2cm">
+<place x="2cm" y="0.5cm" width="19cm" height="4.5cm">
+<blockTable colWidths="7cm, 7cm">
+<!--TOTALES-->
+<tr>
+<td><para>Base Imponible [tbimp]%: <font color="blue">[bimp]</font></para></td>
+<td><para>I.V.A. [tbimp]%:  <font color="blue">[iva]</font></para></td>
+</tr>
+<!--END TOTALES-->
+
+<!--TOTREQ-->
+<tr>
+<td colspan="2"><para>R.Eq. [tre]%: <font color="blue">[re]</font></para></td>
+</tr>
+<!--END TOTREQ-->
+</blockTable>
+
+
+<blockTable>
+<tr>
+<!-- td><para>Total Descuentos <font color="blue">[totaldesc]</font></para></td-->
+<td><para>Total Base Imponible <font color="blue">[totalbimp]</font></para></td>
+<td><para>Total I.V.A <font color="blue">[totaliva]</font></para></td>
+<td><para>Total R.Eq <font color="blue">[totalre]</font></para></td>
+<td><para><b><font size="15"> Total <font color="blue">[total]</font></font></b></para></td>
+</tr>
+</blockTable>
+</place>
+</storyPlace>
+
+
+<!-- storyPlace x="16cm" y="27cm" width="15cm" height="1cm">
+<place x="16cm" y="27cm" width="15cm" height="2.5cm">
+<barCode code="code128" height="1cm">FACT [idpresupuesto] [numpresupuesto] [refpresupuesto]</barCode>
+</place>
+</storyPlace -->
+</story>
+</document>

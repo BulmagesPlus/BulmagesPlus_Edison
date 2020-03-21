@@ -1,0 +1,53 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
+# pathtitle="&Compras\Informes\Resumen de Compras"
+# title="Resumen Compras"
+#<!--IFACE SRC="[CONF_DIR_OPENREPORTS]inf_ventas.ui"-->
+#<!--PARAM NAME="fecha_inicial" TYPE="date"-->
+#<!--PARAM NAME="fecha_final" TYPE="date"-->
+
+import ooolib
+
+# Crea el documento
+doc = ooolib.Calc("Resumen Compras")
+
+doc.set_column_property(1, 'width', '0.5in')
+doc.set_column_property(2, 'width', '5in')
+doc.set_cell_property('bold', True)
+doc.set_cell_value(2, 2, 'string', 'RESUMEN COMPRAS')
+
+i=4
+doc.set_cell_value(1,i,'string','CIF')
+doc.set_cell_value(2,i,'string','NOMBRE')
+doc.set_cell_value(3,i,'string','DIRECCION')
+doc.set_cell_value(4,i,'string','CP')
+doc.set_cell_value(5,i,'string','POBLACION')
+doc.set_cell_value(6,i,'string','BASE')
+doc.set_cell_value(7,i,'string','IMPUESTOS')
+doc.set_cell_value(8,i,'string','TOTAL')
+
+i = 5
+<!--QUERY="SELECT * FROM proveedor WHERE idproveedor IN (SELECT idproveedor FROM facturap WHERE ffacturap >= '[fecha_inicial]' AND ffacturap<= '[fecha_final]' )"-->
+
+<!--SUBQUERY="SELECT SUM (cantlfacturap * pvplfacturap * (100 - descuentolfacturap)/100 )::NUMERIC(12,2) AS base, SUM(cantlfacturap * pvplfacturap * (100 - descuentolfacturap)/100 *  ivalfacturap/100 )::NUMERIC(12,2) AS impuestos FROM lfacturap NATURAL LEFT JOIN facturap WHERE facturap.idproveedor = [idproveedor] AND ffacturap >= '[fecha_inicial]' AND ffacturap<= '[fecha_final]'"-->
+
+
+doc.set_cell_value(1,i,'string','[cifproveedor]')
+doc.set_cell_value(2,i,'string','[nomproveedor]')
+doc.set_cell_value(3,i,'string','[dirproveedor]')
+doc.set_cell_value(4,i,'string','[cpproveedor]')
+doc.set_cell_value(5,i,'string','[poblproveedor]')
+
+
+doc.set_cell_value(6,i,'float','[base]')
+doc.set_cell_value(7,i,'float','[impuestos]')
+doc.set_cell_value(8,i,'formula','=[base] + [impuestos]')
+
+i = i + 1
+<!--END SUBQUERY-->
+
+<!--END QUERY-->
+
+# Guardamos el documento
+doc.save("inf_resumcompras.ods")

@@ -1,0 +1,41 @@
+#######
+#Plugins
+#######
+#README.ca
+#20080501
+
+Nombre: Comandes de clients
+
+Biblioteca: libpluginbf_clientepedido.so
+
+Descripción:  <H1><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_order.svg" WIDTH="100"/><BR>Comandes de clients</H1>
+<P>Suport per a l'emissió de comandes de clients.</P>
+<P>En carregar el plugin tindrem dues noves entrades de menú <B>Llistat de comandes <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_order_list.svg" WIDTH="22"/></B> des de la qual accedirem al llistat de comandes emeses i <B>Nova Comanda <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_order.svg" WIDTH="22"/></B> des del qual podrem emetre una nova comanda.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_order.svg" WIDTH="22"/>Llistat de comandes</H2>
+<P> Mitjançant el llistat de comandes podrem controlar totes les comandes emeses, editar-les i esborrar-les. Per a això podem utilitzar la barra de botons superior del llistat.</P>
+<P> És comú a tots els llistats de BulmaGés poder configurar-los presentant els camps que ens interessi. Per a aixó tenim el <B>menú de subformulari <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/toggleconfig.png" WIDTH="22"/></B> o l'opció <B>Configurar Llistat <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/document_properties.svg" WIDTH="22"/></B> que ens presenta al lateral dret del llistat tots els camps mostrables per ell, opcions de paginació i la consulta de base de dades que genera aquest llistat.</P>
+<P><B>Nota:</B>Poden haver-hi opcions ocultes que no veieu que s'activen mitjançant la pulsació del botó dret del ratolí a determinades zones. Aquestes opcions poden veure's de forma permanent com una barra d'eines mitjançant l'acció <B>Mostrar Menú SubFormulari <IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/48x48/togglemenu.png" WIDTH="22"/></B> Recordi que el botó dret del ratolí pot ser el vostre millor aliat en la búsqueda de determinades accions.</P>
+<H2><IMG SRC="@CMAKE_INSTALL_PREFIX@/share/bulmages/imagesrc/images/oxygen/actions/client_delivery_order.svg" WIDTH="32"/>Nova Comanda</H2>
+<P>En crear una nova comanda les dades necesssàries a omplir són el client i el magatzem. La resta de camps poden deixar-se en blanc per ser omplerts posteriorment. Els camps que apareixen a la pantalla poden variar segons la configuració de plugins que tinguem i que precissin d'informació addicional en les comandes. Aquesta informació pot ser obligatòria o no depenent del plugin qÜestió.</P>
+<P>Un cop omplertes les dades podem desar la comanda o donar-li al botó <B>Accepta</B> per desar els canvis.</P>
+<P>Totes les comandes tenen una plantilla d'impressió per defecte anomenada <B>pedido.rml</B> que conforma la forma com s'imprimeix la comanda en pulsar sobre el botó imprimir. A més poden existir informes addicionals que apareixen en pulsar amb el botó dret del ratolí a qualsevol espai buit de la pantalla de la comanda així com accions ocultes no accessible d'una altra manera</P>
+<B>Author:</B>Tomeu Borrás (tborras@conetxia.com)<BR>
+<HR>
+
+ParmBD:
+
+ArchivoSQLpatch:
+
+ArchivoSQLdeins: 
+
+Dependencias: libpluginbf_cliente.so
+
+Incompatibles:
+
+Categorias: Facturació genèrica;
+
+Reports: blform_PedidoClienteView.qs
+
+Orden: 621
+
+Comentarios:

@@ -1,0 +1,315 @@
+# translation of bulmages_suite_ca.po to
+# Leopold Palomo Avellaneda <leo@alaxarxa.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: info@iglues.org\n"
+"POT-Creation-Date: 2011-08-16 13:15+0200\n"
+"PO-Revision-Date: 2011-02-22 15:08+0100\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"Language-Team: Catalan\n"
+"Language: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_cobrobase.h:416
+msgid "&Aceptar"
+msgstr "&Accepta"
+
+#: ui_cobrobase.h:417
+msgid "&Cancelar"
+msgstr "&Cancel·la"
+
+#: pluginbf_clientecobro.cpp:58
+msgid "&Cobros de clientes"
+msgstr "&Cobrament de clients"
+
+#: pluginbf_clientecobro.cpp:67
+msgid "&Nuevo cobro de cliente"
+msgstr "&Nou cobrament de client"
+
+#: pluginbf_clientecobro.cpp:53
+msgid "&Ventas"
+msgstr "&Vendes"
+
+#: ui_cobroslistbase.h:434 ui_cobroslistbase.h:437
+msgid "Actualizar listado"
+msgstr "Actual·litza llistat"
+
+#: cobroslist.cpp:340
+msgid "Apellidos del trabajador"
+msgstr "Cognoms del treballador"
+
+#: cobroslist.cpp:270 ui_cobrobase.h:393 ui_cobrobase.h:396 ui_cobrobase.h:401
+#: ui_cobrobase.h:404 ui_cobroslistbase.h:402 ui_cobroslistbase.h:405
+msgid "Borrar cobro"
+msgstr "Esborra quota"
+
+#: ui_cobroslistbase.h:441
+msgid "Buscar:"
+msgstr "Cerca:"
+
+#: cobroslist.cpp:328
+msgid "C.I.F."
+msgstr "C.I.F.:"
+
+#: cobroslist.cpp:333
+msgid "Cantidad"
+msgstr "Quantitat"
+
+#: cobroview.cpp:64
+msgid "Cliente"
+msgstr "Següent"
+
+#: cobroview.cpp:54 cobroslist.cpp:51 cobroslist.cpp:85
+msgid "Cliente:"
+msgstr "Client:"
+
+#: cobroview.cpp:60
+msgid "Cobro"
+msgstr "Cobrament"
+
+#: cobroslist.cpp:58
+msgid "Cobro real"
+msgstr "Cobrament real"
+
+#: cobroslist.cpp:196 ui_cobroslistbase.h:382
+msgid "Cobros a clientes"
+msgstr "Cobraments a clients"
+
+#: pluginbf_clientecobro.cpp:60 pluginbf_clientecobro.cpp:61
+msgid "Cobros de clientes"
+msgstr "Comentaris de l'assentament"
+
+#: cobroslist.cpp:337
+msgid "Comentarios"
+msgstr "Comentaris"
+
+#: ui_cobroslistbase.h:426 ui_cobroslistbase.h:429
+msgid "Configurar listado"
+msgstr "Configura llistat"
+
+#: ui_cobroslistbase.h:432
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: ui_cobrobase.h:399 ui_cobroslistbase.h:408
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: ui_cobroslistbase.h:400
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+#: ui_cobroslistbase.h:424
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: ui_cobrobase.h:407
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+#: ui_cobroslistbase.h:392
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: ui_cobroslistbase.h:416
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+#: ui_cobrobase.h:391
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: cobroslist.cpp:253
+msgid "Debe seleccionar una fila primero"
+msgstr "Heu de triar una fila primer"
+
+#: cobroslist.cpp:212
+msgid "Debe seleccionar una linea"
+msgstr "Heu de triar una línia"
+
+#: cobroview.cpp:70
+msgid "Descripcion del cobro"
+msgstr "Descripció de cobrament"
+
+#: ui_cobrobase.h:412
+msgid "Descripcion del cobro:"
+msgstr "Decripció del cobrament"
+
+#: cobroslist.cpp:330
+msgid "Direccion de correo electronico"
+msgstr "Adreça de correu electrònic"
+
+#: cobroslist.cpp:269 ui_cobroslistbase.h:394 ui_cobroslistbase.h:397
+msgid "Editar cobro"
+msgstr "Edita cobrament"
+
+#: cobroslist.cpp:226
+msgid "Error al borrar el cobro a cliente"
+msgstr "Error en esborrar el cobrament a client"
+
+#: cobroview.cpp:79
+msgid "Error al crear el cobro"
+msgstr "Error en la càrrega de l'amortizació"
+
+#: ui_cobroslistbase.h:440
+msgid "F5"
+msgstr "F5"
+
+#: cobroslist.cpp:331
+msgid "Fecha de cobro"
+msgstr "Data de cobrament"
+
+#: cobroview.cpp:67 cobroslist.cpp:332
+msgid "Fecha de vencimiento"
+msgstr "Data de l'assentament"
+
+#: ui_cobrobase.h:411
+msgid "Fecha de vencimiento:"
+msgstr "&Data del venciment"
+
+#: cobroview.cpp:66
+msgid "Fecha del cobro"
+msgstr "Data de la cobrament"
+
+#: ui_cobrobase.h:409
+msgid "Fecha del cobro:"
+msgstr "Data de cobrament"
+
+#: ui_cobroslistbase.h:444
+msgid "Fecha final:"
+msgstr "Data final:"
+
+#: ui_cobroslistbase.h:443
+msgid "Fecha inicial:"
+msgstr "Data inicial:"
+
+#: ui_cobroslistbase.h:418 ui_cobroslistbase.h:421
+msgid "Filtrar cobros"
+msgstr "Filtra cobraments"
+
+#: cobroview.cpp:71 cobroslist.cpp:334
+msgid "Forma de Pago"
+msgstr "Forma de pagament"
+
+#: ui_cobrobase.h:414 ui_cobroslistbase.h:445
+msgid "Forma de pago:"
+msgstr "Forma de pagament:"
+
+#: ui_cobrobase.h:385 ui_cobrobase.h:388
+msgid "Guardar cobro"
+msgstr "Desa arxiu"
+
+#: cobroslist.cpp:326
+msgid "ID cliente"
+msgstr "ID compte"
+
+#: cobroslist.cpp:325
+msgid "ID cobro"
+msgstr "ID cobrament"
+
+#: cobroslist.cpp:338
+msgid "ID trabajador"
+msgstr "ID treballador"
+
+#: cobroview.cpp:63
+msgid "Id cobro"
+msgstr "Id esborrany"
+
+#: ui_cobroslistbase.h:410 ui_cobroslistbase.h:413
+msgid "Imprimir listado"
+msgstr "Imprimeix la comanda"
+
+#: cobroslist.cpp:327
+msgid "Nombre"
+msgstr "Nom"
+
+#: cobroslist.cpp:339
+msgid "Nombre del trabajador"
+msgstr "Nom del treballador"
+
+#: ui_cobroslistbase.h:386 ui_cobroslistbase.h:389
+msgid "Nuevo cobro"
+msgstr "Nou cobrament"
+
+#: ui_cobrobase.h:382
+msgid "Nuevo cobro a cliente"
+msgstr "Nou cobrament a client"
+
+#: pluginbf_clientecobro.cpp:69 pluginbf_clientecobro.cpp:70
+msgid "Nuevo cobro de cliente"
+msgstr "Nou cobrament de client"
+
+#: cobroslist.cpp:329
+msgid "Numero de telefono"
+msgstr "Número de telèfon"
+
+#: cobroview.cpp:65
+msgid "Prevision"
+msgstr "Previsió"
+
+#: cobroslist.cpp:336
+msgid "Prevision de cobro"
+msgstr "Previsió de cobrament"
+
+#: ui_cobrobase.h:410
+msgid "Prevision de fondos"
+msgstr "Previsió de fons"
+
+#: cobroview.cpp:68
+msgid "Referencia"
+msgstr "Referència"
+
+#: cobroslist.cpp:335
+msgid "Referencia del cobro"
+msgstr "Referència de cobrament"
+
+#: ui_cobrobase.h:408
+msgid "Referencia:"
+msgstr "Referència:"
+
+#: cobroslist.cpp:57
+msgid "Solo previsiones"
+msgstr "Sols previsions"
+
+#: cobroview.cpp:127
+msgid "Tiene que guardar el documento antes de poder imprimirlo."
+msgstr "Heu de desar el document abans de poder imprimir-lo"
+
+#: ui_cobroslistbase.h:442
+msgid "Tipo de cobro:"
+msgstr "Tipus de cobrament:"
+
+#: cobroview.cpp:154
+msgid ""
+"Toda la referencia esta cobrada. Se procesaran todos los documentos con esta "
+"referencia"
+msgstr ""
+"Tota la referència està cobrada. Es processaran tots els elements amb\n"
+"aquesta referència"
+
+#: cobroslist.cpp:56
+msgid "Todos los cobros"
+msgstr "Tots els cobraments"
+
+#: cobroview.cpp:69
+msgid "Total cobro"
+msgstr "Total cobrament"
+
+#: ui_cobrobase.h:413
+msgid "Total cobro:"
+msgstr "Total cobrament:"
+
+#: ui_cobroslistbase.h:383
+msgid "Total:"
+msgstr "Total:"
+
+#: cobroview.cpp:72
+msgid "Trabajador"
+msgstr "Treballador"
+
+#: ui_cobrobase.h:415
+msgid "Trabajador:"
+msgstr "Treballador:"
